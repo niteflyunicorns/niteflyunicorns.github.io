@@ -1,8 +1,8 @@
 # name: 'Dana C. Ernst'
-title: 'Dana C. Ernst'
-description: 'Mathematics, Teaching, & Technology'
-tagline: 'Mathematics, Teaching, & Technology'
-url: 'http://dcernst.github.io'
+title: 'niteflyunicorns animation'
+description: 'code, math, animate'
+tagline: 'code, math, animate'
+url: 'http://niteflyunicorns.github.io'
 baseurl: ''
 paginate: 10
 
@@ -16,17 +16,14 @@ permalink: pretty
 relative_permalinks: false
 
 # About/contact
-author: Dana C. Ernst
-twitter:
-  username: danaernst
-
+author: Savannah Chappus
 # GitHub
 github:
-  repo: github.com/dcernst/dcernst.github.io
+  repo: github.com/niteflyunicorns/niteflyunicorns.github.io
 
 # Feed Stuff
 # gems:
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-feed
+#   - jekyll-paginate
+#   - jekyll-seo-tag
