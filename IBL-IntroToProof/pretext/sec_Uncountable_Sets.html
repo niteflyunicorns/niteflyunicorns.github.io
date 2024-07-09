@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Uncountable Sets</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="root--1-2.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec_Countable_Sets.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_Cardinality.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="appendix_elements_of_style.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="root--1-2-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Uncountable_Sets"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">9.5</span><span class="space"> </span><span class="title">Uncountable Sets</span>
+</h2>
+<div class="para" id="sec_Uncountable_Sets-2">Recall from <a href="" class="xref" data-knowl="./knowl/xref/def_countable.html" title="Definition 9.37">Definition 9.37</a> that a set <span class="process-math">\(A\)</span> is uncountable if <span class="process-math">\(A\)</span> is not countable. Since all finite sets are countable, the only way a set could be uncountable is if it is infinite. It follows that a set <span class="process-math">\(A\)</span> is uncountable if and only if there is never a bijection between <span class="process-math">\(\mathbb{N}\)</span> and <span class="process-math">\(A\text{.}\)</span> It is not clear that uncountable sets even exist! It turns out that uncountable sets do exist and in this section, we will discover a few of them.</div>
+<div class="para" id="sec_Uncountable_Sets-3">Our first task is to prove that the interval <span class="process-math">\((0,1)\)</span> is uncountable. By <a href="" class="xref" data-knowl="./knowl/xref/prob_moreInfiniteSets.html" title="Problem 9.35">Problem 9.35</a>(h), we know that <span class="process-math">\((0,1)\)</span> is an infinite set, so it is at least plausible that <span class="process-math">\((0,1)\)</span> is uncountable. The following problem outlines the proof of <a href="" class="xref" data-knowl="./knowl/xref/thm__0_1_uncountable.html" title="Theorem 9.52">Theorem 9.52</a>. Our approach is often referred to as <dfn class="terminology">Cantor’s Diagonalization Argument</dfn>, named after German mathematician <a class="external" href="https://en.wikipedia.org/wiki/Georg_Cantor" target="_blank">Georg Cantor</a><a class="xref" id="sec_Uncountable_Sets-3-8" href="" data-knowl="./knowl/fn/sec_Uncountable_Sets-3-8.html" title="Footnote 9.2"><sup> 2 </sup></a> (1845–1918).</div>
+<div class="para" id="sec_Uncountable_Sets-4">Before we get started, recall that every number in <span class="process-math">\((0,1)\)</span> can be written in decimal form. However, there may be more than one way to write a given number in decimal form. For example, <span class="process-math">\(0.2\)</span> equals <span class="process-math">\(0.1\overline{99}\text{.}\)</span> A number <span class="process-math">\(0.a_1a_2a_3\ldots\)</span> in <span class="process-math">\((0,1)\)</span> is said to be in <dfn class="terminology">standard decimal form</dfn> if there is no <span class="process-math">\(k\)</span> such that for all <span class="process-math">\(i&gt;k\text{,}\)</span> <span class="process-math">\(a_i=9\text{.}\)</span> That is, a number is in standard decimal form if and only if its decimal expansion does not end with a repeating sequence of 9’s. For example, <span class="process-math">\(0.2\)</span> is in standard decimal form while <span class="process-math">\(0.1\overline{99}\)</span> is not, even though both represent the same number. It turns out that every real number can be expressed uniquely in standard decimal form. We will take this fact for granted.</div>
+<article class="problem example-like" id="sec_Uncountable_Sets-5"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">9.51</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_Uncountable_Sets-5-1-1">
+<div class="para">For sake of a contradiction, assume the interval <span class="process-math">\((0,1)\)</span> is countable. Then there exists a bijection <span class="process-math">\(f:\mathbb{N}\to (0,1)\text{.}\)</span> For each <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> its image under <span class="process-math">\(f\)</span> is some number in <span class="process-math">\((0,1)\text{.}\)</span> Write <span class="process-math">\(f(n)=0.a_{1n}a_{2n}a_{3n}\ldots\text{,}\)</span> where <span class="process-math">\(a_{1n}\)</span> is the first digit in the standard decimal form for the image of <span class="process-math">\(n\text{,}\)</span> <span class="process-math">\(a_{2n}\)</span> is the second digit, and so on. If <span class="process-math">\(f(n)\)</span> terminates after <span class="process-math">\(k\)</span> digits, then our convention will be to continue the decimal expansion with 0’s. Now, define <span class="process-math">\(b=0.b_1b_2b_3\ldots\text{,}\)</span> where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+b_i=\begin{cases}2, \amp  \text{ if } a_{ii}\neq 2\\ 3, \amp  \text{ if } a_{ii}=2. \end{cases}
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li id="sec_Uncountable_Sets-5-1-1-14-1"><div class="para" id="sec_Uncountable_Sets-5-1-1-14-1-1">Prove that the decimal expansion that defines <span class="process-math">\(b\)</span> above is in standard decimal form.</div></li>
+<li id="sec_Uncountable_Sets-5-1-1-14-2"><div class="para" id="sec_Uncountable_Sets-5-1-1-14-2-1">Prove that for all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> <span class="process-math">\(f(n)\neq b\text{.}\)</span>
+</div></li>
+<li id="sec_Uncountable_Sets-5-1-1-14-3"><div class="para" id="sec_Uncountable_Sets-5-1-1-14-3-1">Explain why <span class="process-math">\(f\)</span> cannot be surjective and why this is a contradiction.</div></li>
+</ol>
+</div> <div class="para" id="sec_Uncountable_Sets-5-1-2">You just proved that the interval <span class="process-math">\((0,1)\)</span> cannot be countable!</div></article><div class="para" id="sec_Uncountable_Sets-6">The previous problem proves following theorem.</div>
+<article class="theorem theorem-like" id="thm__0_1_uncountable"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.52</span><span class="period">.</span>
+</h3>
+<div class="para" id="thm__0_1_uncountable-1-1">The open interval <span class="process-math">\((0,1)\)</span> is uncountable.</div></article><div class="para" id="sec_Uncountable_Sets-8">Loosely speaking, what <a href="" class="xref" data-knowl="./knowl/xref/thm__0_1_uncountable.html" title="Theorem 9.52">Theorem 9.52</a> says is that the open interval <span class="process-math">\((0,1)\)</span> is “bigger” in terms of the number of elements it contains than the natural numbers and even the rational numbers. This shows that there are infinite sets of different sizes! We now know there is at least one uncountable set, namely the interval <span class="process-math">\((0,1)\text{.}\)</span> The next three results are useful for finding other uncountable sets. For the first theorem, try a proof by contradiction and take a look at <a href="" class="xref" data-knowl="./knowl/xref/thm_subsetsCountableSets.html" title="Theorem 9.41">Theorem 9.41</a>.</div>
+<article class="theorem theorem-like" id="thm_containsUncountableSubset"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.53</span><span class="period">.</span>
+</h3>
+<div class="para" id="thm_containsUncountableSubset-1-1">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets such that <span class="process-math">\(A\subseteq B\)</span> and <span class="process-math">\(A\)</span> is uncountable, then <span class="process-math">\(B\)</span> is uncountable.</div></article><article class="corollary theorem-like" id="sec_Uncountable_Sets-10"><h3 class="heading">
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">9.54</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_Uncountable_Sets-10-1-1">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets such that <span class="process-math">\(A\)</span> is uncountable and <span class="process-math">\(B\)</span> is countable, then <span class="process-math">\(A\setminus B\)</span> is uncountable.</div></article><article class="theorem theorem-like" id="sec_Uncountable_Sets-11"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.55</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_Uncountable_Sets-11-1-1">If <span class="process-math">\(f:A\to B\)</span> is an injective function and <span class="process-math">\(A\)</span> is uncountable, then <span class="process-math">\(B\)</span> is uncountable.</div></article><div class="para" id="sec_Uncountable_Sets-12">Since the interval <span class="process-math">\((0,1)\)</span> is uncountable and <span class="process-math">\((0,1)\subseteq \mathbb{R}\text{,}\)</span> it follows immediately from <a href="" class="xref" data-knowl="./knowl/xref/thm_containsUncountableSubset.html" title="Theorem 9.53">Theorem 9.53</a> that <span class="process-math">\(\mathbb{R}\)</span> is also uncountable. The next theorem tells us that <span class="process-math">\((0,1)\)</span> and <span class="process-math">\(\mathbb{R}\)</span> actually have the same cardinality! To prove this, consider the function <span class="process-math">\(f:(0,1)\to \mathbb{R}\)</span> defined via <span class="process-math">\(f(x)=\tan\left(\pi x-\frac{\pi}{2}\right)\text{.}\)</span>
+</div>
+<article class="theorem theorem-like" id="thm_R_uncountable"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.56</span><span class="period">.</span>
+</h3>
+<div class="para" id="thm_R_uncountable-1-1">The set of real numbers is uncountable. In particular, <span class="process-math">\(\card((0,1))=\card(\mathbb{R})\text{.}\)</span>
+</div></article><div class="para" id="sec_Uncountable_Sets-14">The <dfn class="terminology">continuum hypothesis</dfn>—originally proposed by Cantor in 1878—states that there is no set whose cardinality is strictly between that of the natural numbers and the real numbers. Cantor unsuccessfully attempted to prove the continuum hypothesis for several years. It follows from the work of <a class="external" href="https://en.wikipedia.org/wiki/Paul_Cohen" target="_blank">Paul Cohen</a><a class="xref" id="sec_Uncountable_Sets-14-5" href="" data-knowl="./knowl/fn/sec_Uncountable_Sets-14-5.html" title="Footnote 9.3"><sup> 3 </sup></a> (1934–2007) and <a class="external" href="https://en.wikipedia.org/wiki/Kurt_Godel" target="_blank">Kurt Gödel</a><a class="xref" id="sec_Uncountable_Sets-14-8" href="" data-knowl="./knowl/fn/sec_Uncountable_Sets-14-8.html" title="Footnote 9.4"><sup> 4 </sup></a> (1906–1978) that the continuum hypothesis and its negation are independent of the Zermelo-Fraenkel axioms of set theory (briefly discussed at the end of <a href="sec_RussellsParadox.html" class="internal" title="Section 3.2: Russell’s Paradox">Section 3.2</a>). That is, either the continuum hypothesis or its negation can be added as an axiom to ZFC set theory, with the resulting theory being consistent if and only if ZFC is consistent (i.e., no contradictions are produced). Nowadays, most set theorists believe that the continuum hypothesis <em class="emphasis">should</em> be false.</div>
+<article class="theorem theorem-like" id="sec_Uncountable_Sets-15"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.57</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_Uncountable_Sets-15-1-1">If <span class="process-math">\(a,b\in\mathbb{R}\)</span> with <span class="process-math">\(a\lt b\text{,}\)</span> then <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\([a,b]\text{,}\)</span> <span class="process-math">\((a,b]\text{,}\)</span> and <span class="process-math">\([a,b)\)</span> are all uncountable.</div></article><article class="theorem theorem-like" id="sec_Uncountable_Sets-16"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.58</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_Uncountable_Sets-16-1-1">The set of irrational numbers is uncountable.</div></article><article class="theorem theorem-like" id="sec_Uncountable_Sets-17"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.59</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_Uncountable_Sets-17-1-1">The set <span class="process-math">\(\mathbb{C}\)</span> of complex numbers is uncountable.</div></article><article class="problem example-like" id="sec_Uncountable_Sets-18"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">9.60</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_Uncountable_Sets-18-1-1">
+<div class="para">Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.</div>
+<ol class="lower-alpha">
+<li id="sec_Uncountable_Sets-18-1-1-1-1"><div class="para" id="sec_Uncountable_Sets-18-1-1-1-1-1">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets such that <span class="process-math">\(A\)</span> is uncountable, then <span class="process-math">\(A\cup B\)</span> is uncountable.</div></li>
+<li id="sec_Uncountable_Sets-18-1-1-1-2"><div class="para" id="sec_Uncountable_Sets-18-1-1-1-2-1">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets such that <span class="process-math">\(A\)</span> is uncountable, then <span class="process-math">\(A\cap B\)</span> is uncountable.</div></li>
+<li id="sec_Uncountable_Sets-18-1-1-1-3"><div class="para" id="sec_Uncountable_Sets-18-1-1-1-3-1">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets such that <span class="process-math">\(A\)</span> is uncountable, then <span class="process-math">\(A\times B\)</span> is uncountable.</div></li>
+<li id="sec_Uncountable_Sets-18-1-1-1-4"><div class="para" id="sec_Uncountable_Sets-18-1-1-1-4-1">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets such that <span class="process-math">\(A\)</span> is uncountable, then <span class="process-math">\(A\setminus B\)</span> is uncountable.</div></li>
+</ol>
+</div></article><div class="para" id="sec_Uncountable_Sets-19">An approach similar to Cantor’s Diagonalization Argument will be helpful when approaching the next problem.</div>
+<article class="problem example-like" id="prob_sequence01"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">9.61</span><span class="period">.</span>
+</h3>
+<div class="para" id="prob_sequence01-1-1">Let <span class="process-math">\(S\)</span> be the set of infinite sequences of 0’s and 1’s. Determine whether <span class="process-math">\(S\)</span> is countable or uncountable and prove that your answer is correct.</div></article><article class="theorem theorem-like" id="sec_Uncountable_Sets-21"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.62</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_Uncountable_Sets-21-1-1">If <span class="process-math">\(S\)</span> is the set from <a href="" class="xref" data-knowl="./knowl/xref/prob_sequence01.html" title="Problem 9.61">Problem 9.61</a>, then <span class="process-math">\(\card(\mathcal{P}(\mathbb{N}))=\card(S)\text{.}\)</span>
+</div></article><article class="corollary theorem-like" id="cor_power_set_of_N_uncountable"><h3 class="heading">
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">9.63</span><span class="period">.</span>
+</h3>
+<div class="para" id="cor_power_set_of_N_uncountable-1-1">The power set of the natural numbers is uncountable.</div></article><div class="para" id="sec_Uncountable_Sets-23">Notice that <span class="process-math">\(\mathbb{N}\)</span> is countable while <span class="process-math">\(\mathcal{P}(\mathbb{N})\)</span> is uncountable. That is, the power set of the natural numbers has cardinality strictly larger than the natural numbers. We generalize this phenomenon in the next theorem.</div>
+<div class="para" id="sec_Uncountable_Sets-24">According to <a href="" class="xref" data-knowl="./knowl/xref/thm_R_uncountable.html" title="Theorem 9.56">Theorem 9.56</a> and <a href="" class="xref" data-knowl="./knowl/xref/cor_power_set_of_N_uncountable.html" title="Corollary 9.63">Corollary 9.63</a>, <span class="process-math">\(\mathbb{R}\)</span> and <span class="process-math">\(\mathcal{P}(\mathbb{N})\)</span> are both uncountable. In fact, <span class="process-math">\(\card(\mathcal{P}(\mathbb{N}))=\card(\mathbb{R})\text{,}\)</span> which we state without proof. However, it turns out that the two uncountable sets may or may not have the same cardinality. Perhaps surprisingly, there are sets that are even “bigger” than the set of real numbers. The next theorem is named after Georg Cantor, who first stated and proved it at the end of the 19th century. The theorem states that given any set, we can always increase the cardinality by considering its power set. That is, if <span class="process-math">\(A\)</span> is a set, <span class="process-math">\(\mathcal{P}(A)\)</span> has strictly greater cardinality than <span class="process-math">\(A\)</span> itself. For finite sets, Cantor’s theorem follows from <a href="" class="xref" data-knowl="./knowl/xref/thm_size_of_power_set_for_finite_sets.html" title="Theorem 4.11">Theorems 4.11</a> and <a href="" class="xref" data-knowl="./knowl/xref/thm_n_2_n.html" title="Theorem 4.12">Theorem 4.12</a> (both of which we proved via induction). Perhaps much more surprising is that Cantor discovered an elegant argument that is applicable to any set, whether finite or infinite. To prove Cantor’s Theorem, first exhibit an injective function from <span class="process-math">\(A\)</span> to <span class="process-math">\(\mathcal{P}(A)\text{.}\)</span> This proves that <span class="process-math">\(\card(A)\leq \card(\mathcal{P}(A))\text{.}\)</span> To show that <span class="process-math">\(\card(A)\lt \card(\mathcal{P}(A))\text{,}\)</span> try a proof by contradiction. That is, assume there exists a bijective function <span class="process-math">\(f:A\to\mathcal{P}(A))\text{.}\)</span> Derive a contradiction by considering the set <span class="process-math">\(B=\{x\in A\mid x\notin f(x)\}\text{.}\)</span>
+</div>
+<article class="theorem theorem-like" id="thm_Cantors_Theorem"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.64</span><span class="period">.</span><span class="space"> </span><span class="title">Cantor’s Theorem.</span>
+</h3>
+<div class="para" id="thm_Cantors_Theorem-2-1">If <span class="process-math">\(A\)</span> is a set, then <span class="process-math">\(\card(A)\lt \card(\mathcal{P}(A))\text{.}\)</span>
+</div></article><div class="para" id="sec_Uncountable_Sets-26">Recall that cardinality provides a way for talking about “how big” a set is. The fact that the natural numbers and the real numbers have different cardinality (one countable, the other uncountable), tells us that there are at least two different “sizes of infinity”. By iteratively taking the power set of an infinite set and applying Cantor’s Theorem we obtain an endless hierarchy of cardinalities, each strictly larger than the one before it. Colloquially, this implies that there are “infinitely many sizes of infinity” and there is “no largest infinity”.</div>
+<blockquote class="blockquote" id="sec_Uncountable_Sets-27">
+<div class="para" id="sec_Uncountable_Sets-27-1">If you want to sharpen a sword, you have to remove a little metal.</div> <cite class="attribution">―Author Unknown</cite>
+</blockquote></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_Countable_Sets.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="appendix_elements_of_style.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
