@@ -1,0 +1,40 @@
+Pages:
+
+
+Home
+
+Portfolio
+   > Individual project pages
+      > animation
+      > graphic design
+      > all
+      > new
+      > for sale
+
+Reel
+
+About
+
+Resume
+
+Contact
+
+Store / For sale
+      > photography --> should be elsewhere not here
+
+
+TODO:
+- link "view project" button to draugrs project page when its ready
+- add footer with socials
+- get better quality logo ?
+- remove themify-icons stuff
+- find/make new icon set for website
+- modify typing animation to slide down (and maybe interact with) the body text explainging who I am on the about page
+- get TXG jpg with white background to replace transparent TXG png
+- get cover image for countdown (or figure out how to put the video as the cover)
+
+
+
+CURRENT BUGS:
+- the navbar on the about page has a weird glitch in the active highlighting
+- the navbar on the about page fades out nicely but does not fade back in nicely

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="niteflyunicorns">
+    
+    <title>niteflyunicorns | Portfolio</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <div class="content-wrapper">
+      <!-- Navbar Start -->
+      <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3" id="navbar">
+	  <a href="index.html" class="logo">
+            <img src="./assets/imgs/logo.png">
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto p-4">
+              <a href="index.html" class="nav-item nav-link fade-link">Home</a>
+              <a href="portfolio.html" class="nav-item nav-link fade-link active">Portfolio</a>
+              <a href="reel.html" class="nav-item nav-link fade-link">Reel</a>
+	      <a href="resume.html" class="nav-item nav-link fade-link">Resume</a>
+              <a href="about.html" class="nav-item nav-link fade-link">About</a>
+              <a href="contact.html" class="nav-item nav-link fade-link">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar End -->
+      
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="40" id="about">
+    <!-- Page Title -->
+    <div class="container" style="margin-top: 20vh">
+      <span class="kerned-header fade-in">PORTFOLIO</span>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="section body-gradient" id="portfolio">
+      <div class="container">
+        <!-- <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1> -->
+        <div class="portfolio">
+          <div class="filters">
+            <a href="#" data-filter=".new" class="active">
+              New!
+            </a>
+	    <a href="#" data-filter=".all">
+              All
+            </a>
+            <a href="#" data-filter=".animation">
+              Animation
+            </a>
+            <a href="#" data-filter=".graphic-design">
+              Graphic Design
+            </a>
+            <a href="#" data-filter=".for-sale">
+              For Sale
+            </a>
+          </div>
+          <div class="portfolio-container"> 
+            <div class="col-md-6 col-lg-4 all animation new">
+              <div class="portfolio-item">
+                <img src="assets/imgs/portfolio/DraugrSystem/EeyoStill.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/portfolio/DraugrSystem/EeyoStill.png"></a>
+                  <div class="text-holder">
+                    <h6 class="title">DRAUGR PLANETARY SYSTEM</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>   
+              </div>             
+            </div>
+            <div class="col-md-6 col-lg-4 all animation new">
+              <div class="portfolio-item">
+                <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">PARTICLE COUNTDOWN</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div> 
+              </div>                         
+            </div>
+            <div class="col-md-6 col-lg-4 all new"> <!-- may need another category -->
+              <div class="portfolio-item">
+                <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">GRBY SQRD APP PROTOTYPE</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>    
+              </div>              
+            </div> 
+            <div class="col-md-6 col-lg-4 all graphic-design">
+              <div class="portfolio-item">
+                <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">GILL SANS TYPOGRAPHIC SPECIMEN</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                     
+            </div>
+
+            <div class="col-md-6 col-lg-4 all graphic-design"> 
+              <div class="portfolio-item">
+                <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">NIGHT SKY FIELD GUIDE</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                       
+            </div> 
+            <div class="col-md-6 col-lg-4 all web new">
+              <div class="portfolio-item">
+                <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">WEB</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                     
+            </div>
+            <div class="col-md-6 col-lg-4 all advertising new">
+              <div class="portfolio-item">
+                <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">ADVERSITING</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                       
+            </div> 
+            <div class="col-md-6 col-lg-4 all advertising new"> 
+              <div class="portfolio-item">
+                <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">ADVERTISING</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div> 
+            <div class="col-md-6 col-lg-4 all branding new">
+              <div class="portfolio-item">
+                <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">BRANDING</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div> 
+              </div>
+            </div> 
+            <div class="col-md-6 col-lg-4 all branding">
+              <div class="portfolio-item">
+                <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">BRANDING</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                     
+            </div> 
+            <div class="col-md-6 col-lg-4 all branding new">
+              <div class="portfolio-item">
+                <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">BRANDING</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                    
+            </div> 
+            <div class="col-md-6 col-lg-4 all branding">
+              <div class="portfolio-item">
+                <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">BRANDING</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                      
+            </div> 
+            <div class="col-md-6 col-lg-4 all branding">
+              <div class="portfolio-item">
+                <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                <div class="content-holder">
+                  <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                  <div class="text-holder">
+                    <h6 class="title">BRANDING</h6>
+                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                  </div>
+                </div>
+              </div>                                                   
+            </div>
+          </div> 
+        </div>  
+      </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+    
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
+
+  </body>
+</html>
