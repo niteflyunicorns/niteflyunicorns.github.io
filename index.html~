@@ -6,10 +6,8 @@
     <meta name="author" content="niteflyunicorns">
     
     <title>niteflyunicorns | Home</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- styles -->
-    <link rel="stylesheet" href="assets/css/johndoe.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     
   </head>
   <body class="home-background" data-spy="scroll" data-target=".navbar" data-offset="40" id="about">
@@ -40,6 +38,7 @@
       <a href="portfolio.html" class="btn btn-transparent btn-rounded">VIEW PROJECT</a>
     </div>
 
+    <!-- Footer Start -->
     <footer class="footer">
       <div class="social-icons">
 	<a href="https://www.instagram.com/niteflyunicorns.animation" class="social-icon">
@@ -51,9 +50,13 @@
 	<a href="https://www.youtube.com/@niteflyunicorns" class="social-icon">
 	  <img src="assets/icons/youtube.svg" alt="youtube" >
 	</a>
+	<a href="https://www.linkedin.com/in/savannah-chappus-b716191b7/" class="social-icon">
+	  <img src="assets/icons/linkedin.svg" alt="linkedin" >
+	</a>
       </div>
       
     </footer>
+    <!-- Footer End -->
 
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>

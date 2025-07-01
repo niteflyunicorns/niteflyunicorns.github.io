@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Title</title>
+
+    <div class="content-wrapper">
+      <!-- Navbar Start -->
+      <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3" id="navbar">
+	  <a href="index.html" class="logo">
+            <img src="./assets/imgs/logo.png">
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto p-4">
+              <a href="index.html" class="nav-item nav-link fade-link">Home</a>
+              <a href="portfolio.html" class="nav-item nav-link fade-link active">Portfolio</a>
+              <!-- <a href="reel.html" class="nav-item nav-link fade-link">Reel</a> -->
+	      <a href="construction.html" class="nav-item nav-link fade-link">Reel</a>
+	      <!-- <a href="resume.html" class="nav-item nav-link fade-link">Resume</a> -->
+	      <a href="construction.html" class="nav-item nav-link fade-link">Resume</a>
+              <a href="about.html" class="nav-item nav-link fade-link">About</a>
+              <!-- <a href="contact.html" class="nav-item nav-link fade-link">Contact</a> -->
+	      <a href="construction.html" class="nav-item nav-link fade-link">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar End -->
+
+  
+</head>
+
+<body>
+  
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <video class="hero-media" autoplay muted loop playsinline>
+      <source src="path/to/your-video.mp4" type="video/mp4" />
+      <!-- fallback image -->
+      <img src="path/to/your-image.jpg" alt="Project preview" />
+    </video>
+    <div class="hero-content">
+      <h1 class="project-title">Project Title</h1>
+      <p class="project-type">Project Type</p>
+      <p class="project-role">Role in Project</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="project-details">
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <!-- Example gallery items -->
+      <div class="gallery-item"><img src="path/to/image1.jpg" alt="Gallery image 1"></div>
+      <div class="gallery-item"><img src="path/to/image2.jpg" alt="Gallery image 2"></div>
+      <div class="gallery-item"><img src="path/to/image3.jpg" alt="Gallery image 3"></div>
+      <!-- Add more as needed -->
+    </section>
+
+    <!-- Text & Description Section -->
+    <section class="project-description">
+      <h2>Description Heading</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <h3>Subsection</h3>
+      <p>Additional details about the project.</p>
+    </section>
+  </main>
+
+  <!-- Navigation Arrows -->
+  <nav class="project-navigation">
+    <a href="previous-project.html" class="nav-arrow nav-left" aria-label="Previous Project">&#8592;</a>
+    <a href="next-project.html" class="nav-arrow nav-right" aria-label="Next Project">&#8594;</a>
+  </nav>
+
+</body>
+</html>

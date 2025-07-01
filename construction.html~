@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="niteflyunicorns">
     
-    <title>niteflyunicorns | Home</title>
+    <title>niteflyunicorns | Coming Soon</title>
     <!-- styles -->
     <link rel="stylesheet" href="assets/css/styles.css">
     
@@ -34,8 +34,8 @@
     </div>
     <!-- Navbar End -->
 
-    <div class="container-button">
-      <a href="portfolio.html" class="btn btn-transparent btn-rounded">VIEW PROJECT</a>
+    <div class="header">
+      <h1 class="header-text" style="margin-top: 50vh; margin-left: 15vw;">Coming Soon!</h1>
     </div>
 
     <!-- Footer Start -->

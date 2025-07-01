@@ -77,21 +77,21 @@
             </div>
             <div class="col-md-6 col-lg-4 all animation new">
               <div class="portfolio-item">
-                <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                <img src="assets/imgs/portfolio/Countdown/1-1.png" class="img-fluid" alt="Particle Countdown Cover Image">
                 <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
-                  <div class="text-holder">
+                  <a class="img-popup" href="assets/imgs/portfolio/Countdown/1-1.png"></a>
+                  <div class="text-holder" style="margin-top: 4em;">
                     <h6 class="title">PARTICLE COUNTDOWN</h6>
-                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+		    <a href="portfolio.html" style="margin-top: 2em;" class="btn btn-transparent btn-rounded">VIEW PROJECT</a>
                   </div>
                 </div> 
               </div>                         
             </div>
             <div class="col-md-6 col-lg-4 all new"> <!-- may need another category -->
               <div class="portfolio-item">
-                <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                <img src="assets/imgs/portfolio/GRBY-SQRD/demoReelGRBY0.png" class="img-fluid" alt="GRBY-SQRD App Prototype Cover Image">                         
                 <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                  <a class="img-popup" href="assets/imgs/portfolio/GRBY-SQRD/demoReelGRBY0.png"></a>
                   <div class="text-holder">
                     <h6 class="title">GRBY SQRD APP PROTOTYPE</h6>
                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -101,9 +101,9 @@
             </div> 
             <div class="col-md-6 col-lg-4 all graphic-design">
               <div class="portfolio-item">
-                <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                <img src="assets/imgs/portfolio/GillSans/BookMockup.jpg" class="img-fluid" alt="Gill Sans Typographic Specimen Cover Image">
                 <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                  <a class="img-popup" href="assets/imgs/portfolio/GillSans/BookMockup.jpg"></a>
                   <div class="text-holder">
                     <h6 class="title">GILL SANS TYPOGRAPHIC SPECIMEN</h6>
                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -114,9 +114,9 @@
 
             <div class="col-md-6 col-lg-4 all graphic-design"> 
               <div class="portfolio-item">
-                <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                <img src="assets/imgs/portfolio/NightSkyFieldGuide/fieldGuideMockup.png" class="img-fluid" alt="Night Sky Field Guide Image Cover">                               
                 <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                  <a class="img-popup" href="assets/imgs/portfolio/NightSkyFieldGuide/fieldGuideMockup.png"></a>
                   <div class="text-holder">
                     <h6 class="title">NIGHT SKY FIELD GUIDE</h6>
                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -124,109 +124,129 @@
                 </div>
               </div>                                                       
             </div> 
-            <div class="col-md-6 col-lg-4 all web new">
+            <div class="col-md-6 col-lg-4 all graphic-design">
               <div class="portfolio-item">
-                <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                <img src="assets/imgs/portfolio/Logos/txgLogo1-p0421.png" class="img-fluid" alt="TXG Logo Cover Image">  
                 <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                  <a class="img-popup" href="assets/imgs/portfolio/Logos/txgLogo1-p0421.png"></a>
                   <div class="text-holder">
-                    <h6 class="title">WEB</h6>
+                    <h6 class="title">TXG LOGO</h6>
                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                   </div>
                 </div>
               </div>                                                     
             </div>
-            <div class="col-md-6 col-lg-4 all advertising new">
+            <div class="col-md-6 col-lg-4 all animation">
               <div class="portfolio-item">
-                <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                <img src="assets/imgs/portfolio/MusicFest/musicFestPromo-f22.png" class="img-fluid" alt="Music Fest Promo Video Cover Image">       
                 <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                  <a class="img-popup" href="assets/imgs/portfolio/MusicFest/musicFestPromo-f22.png"></a>
                   <div class="text-holder">
-                    <h6 class="title">ADVERSITING</h6>
+                    <h6 class="title">N/A MUSIC FEST PROMO</h6>
                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                   </div>
                 </div>
               </div>                                                       
             </div> 
-            <div class="col-md-6 col-lg-4 all advertising new"> 
-              <div class="portfolio-item">
-                <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
-                <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
-                  <div class="text-holder">
-                    <h6 class="title">ADVERTISING</h6>
-                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                  </div>
-                </div>
-              </div>
+            <!-- <div class="col-md-6 col-lg-4 all advertising ">  -->
+            <!--   <div class="portfolio-item"> -->
+            <!--     <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">             -->
+            <!--     <div class="content-holder"> -->
+            <!--       <a class="img-popup" href="assets/imgs/portfolio/DraugrSystem/advertising-4.jpg"></a> -->
+            <!--       <div class="text-holder"> -->
+            <!--         <h6 class="title">ADVERTISING</h6> -->
+            <!--         <p class="subtitle">Expedita corporis doloremque velit in totam!</p> -->
+            <!--       </div> -->
+            <!--     </div> -->
+            <!--   </div> -->
               
-            </div> 
-            <div class="col-md-6 col-lg-4 all branding new">
-              <div class="portfolio-item">
-                <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
-                <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
-                  <div class="text-holder">
-                    <h6 class="title">BRANDING</h6>
-                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                  </div>
-                </div> 
-              </div>
-            </div> 
-            <div class="col-md-6 col-lg-4 all branding">
-              <div class="portfolio-item">
-                <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
-                  <div class="text-holder">
-                    <h6 class="title">BRANDING</h6>
-                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                  </div>
-                </div>
-              </div>                                                     
-            </div> 
-            <div class="col-md-6 col-lg-4 all branding new">
-              <div class="portfolio-item">
-                <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
-                <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
-                  <div class="text-holder">
-                    <h6 class="title">BRANDING</h6>
-                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                  </div>
-                </div>
-              </div>                                                    
-            </div> 
-            <div class="col-md-6 col-lg-4 all branding">
-              <div class="portfolio-item">
-                <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
-                <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
-                  <div class="text-holder">
-                    <h6 class="title">BRANDING</h6>
-                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                  </div>
-                </div>
-              </div>                                                      
-            </div> 
-            <div class="col-md-6 col-lg-4 all branding">
-              <div class="portfolio-item">
-                <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
-                <div class="content-holder">
-                  <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
-                  <div class="text-holder">
-                    <h6 class="title">BRANDING</h6>
-                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                  </div>
-                </div>
-              </div>                                                   
-            </div>
+            <!-- </div>  -->
+            <!-- <div class="col-md-6 col-lg-4 all branding new"> -->
+            <!--   <div class="portfolio-item"> -->
+            <!--     <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         -->
+            <!--     <div class="content-holder"> -->
+            <!--       <a class="img-popup" href="assets/imgs/portfolio/DraugrSystem/branding-1.jpg"></a> -->
+            <!--       <div class="text-holder"> -->
+            <!--         <h6 class="title">BRANDING</h6> -->
+            <!--         <p class="subtitle">Expedita corporis doloremque velit in totam!</p> -->
+            <!--       </div> -->
+            <!--     </div>  -->
+            <!--   </div> -->
+            <!-- </div>  -->
+            <!-- <div class="col-md-6 col-lg-4 all branding"> -->
+            <!--   <div class="portfolio-item"> -->
+            <!--     <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   -->
+            <!--     <div class="content-holder"> -->
+            <!--       <a class="img-popup" href="assets/imgs/portfolio/DraugrSystem/branding-2.jpg"></a> -->
+            <!--       <div class="text-holder"> -->
+            <!--         <h6 class="title">BRANDING</h6> -->
+            <!--         <p class="subtitle">Expedita corporis doloremque velit in totam!</p> -->
+            <!--       </div> -->
+            <!--     </div> -->
+            <!--   </div>                                                      -->
+            <!-- </div>  -->
+            <!-- <div class="col-md-6 col-lg-4 all branding new"> -->
+            <!--   <div class="portfolio-item"> -->
+            <!--     <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">    -->
+            <!--     <div class="content-holder"> -->
+            <!--       <a class="img-popup" href="assets/imgs/portfolio/DraugrSystem/branding-3.jpg"></a> -->
+            <!--       <div class="text-holder"> -->
+            <!--         <h6 class="title">BRANDING</h6> -->
+            <!--         <p class="subtitle">Expedita corporis doloremque velit in totam!</p> -->
+            <!--       </div> -->
+            <!--     </div> -->
+            <!--   </div>                                                     -->
+            <!-- </div>  -->
+            <!-- <div class="col-md-6 col-lg-4 all branding"> -->
+            <!--   <div class="portfolio-item"> -->
+            <!--     <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                       -->
+            <!--     <div class="content-holder"> -->
+            <!--       <a class="img-popup" href="assets/imgs/portfolio/DraugrSystem/branding-4.jpg"></a> -->
+            <!--       <div class="text-holder"> -->
+            <!--         <h6 class="title">BRANDING</h6> -->
+            <!--         <p class="subtitle">Expedita corporis doloremque velit in totam!</p> -->
+            <!--       </div> -->
+            <!--     </div> -->
+            <!--   </div>                                                       -->
+            <!-- </div>  -->
+            <!-- <div class="col-md-6 col-lg-4 all branding"> -->
+            <!--   <div class="portfolio-item"> -->
+            <!--     <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">           -->
+            <!--     <div class="content-holder"> -->
+            <!--       <a class="img-popup" href="assets/imgs/portfolio/DraugrSystem/branding-5.jpg"></a> -->
+            <!--       <div class="text-holder"> -->
+            <!--         <h6 class="title">BRANDING</h6> -->
+            <!--         <p class="subtitle">Expedita corporis doloremque velit in totam!</p> -->
+            <!--       </div> -->
+            <!--     </div> -->
+            <!--   </div>                                                    -->
+            <!-- </div> -->
           </div> 
         </div>  
       </div>            
     </section>
     <!-- End of portfolio section -->
 
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="social-icons">
+	<a href="https://www.instagram.com/niteflyunicorns.animation" class="social-icon">
+	  <img src="assets/icons/instagram.svg" alt="instagram" >
+	</a>
+	<a href="https://github.com/niteflyunicorns" class="social-icon">
+	  <img src="assets/icons/github.svg" alt="github" >
+	</a>
+	<a href="https://www.youtube.com/@niteflyunicorns" class="social-icon">
+	  <img src="assets/icons/youtube.svg" alt="youtube" >
+	</a>
+	<a href="https://www.linkedin.com/in/savannah-chappus-b716191b7/" class="social-icon">
+	  <img src="assets/icons/linkedin.svg" alt="linkedin" >
+	</a>
+      </div>
+      
+    </footer>
+    <!-- Footer End -->
+    
     
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>

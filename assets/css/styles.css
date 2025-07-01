@@ -73,7 +73,44 @@
     --font-family: "Oswald";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-/* end of MINE */
+
+<!-- font stuff -->
+@font-face {
+    font-family: "Oswald";
+    src: url('assets/fonts/Oswald-ExtraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url('assets/fonts/Oswald-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url('assets/fonts/Oswald-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url('assets/fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url('assets/fonts/Oswald-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url('assets/fonts/Oswald-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
 
 *,
 *::before,
@@ -81,20 +118,18 @@
     box-sizing: border-box;
 }
 
-/* MINE */
 html {
-    font-family: "Oswald";
+    /* font-family: "Oswald"; */
+    font-weight: 500;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-/* end of MINE */
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
 
-/* MINE */
 body, body-gradient {
     display: flex;
     flex-direction: column;
@@ -115,6 +150,7 @@ body {
 .body-gradient {
     background: linear-gradient(var(--black), #24000c, var(--pink-dark));
 }
+
 /* end of MINE */
 
 [tabindex="-1"]:focus {
@@ -668,6 +704,41 @@ pre code {
     justify-content: center;
     height: 100vh;
 }
+
+/* ------------- about me hobbies grid card ----------- */
+  .hobbies-card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    /* margin-top: 20px; */
+  }
+  .hobbies-card h2 {
+    color: var(--pink);
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .hobbies-card ul {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: black;
+      padding: 10px;
+  }
+
+  .hobbies-card ul > div {
+      background-color: black;
+      padding: 10px;
+      /* font-size: 30px; */
+      text-align: center;
+  }
+  
+  .hobbies-card li {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  .hobbies-card li h3 {
+    color: var(--pink);
+  }
 /* end of MINE */
 
 .content-wrapper {
@@ -4752,7 +4823,7 @@ nav .logo img {
 }
 
 .navbar-nav .dropdown-menu {
-    position: static;
+    position: relative;
     float: none;
 }
 
@@ -4763,17 +4834,17 @@ nav .logo img {
 }
 
 .navbar-collapse {
-    -webkit-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
+    /* -webkit-flex-basis: 100%; */
+    /* -ms-flex-preferred-size: 100%; */
+    /* flex-basis: 100%; */
+    /* -webkit-box-flex: 1; */
+    /* -webkit-flex-grow: 1; */
+    /* -ms-flex-positive: 1; */
     flex-grow: 1;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    /* -webkit-box-align: center; */
+    /* -webkit-align-items: center; */
+    /* -ms-flex-align: center; */
+    /* align-items: center; */
 }
 
 .navbar-toggler {
@@ -4955,6 +5026,7 @@ nav .logo img {
 	-webkit-flex-basis: auto;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
+	position: relative;	
     }
     .navbar-expand-lg .navbar-toggler {
 	display: none;
@@ -11094,7 +11166,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* font stuff */
 /* typography */
 p {
-    font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1300 - 300)));
+    font-size: calc(16px + (18 - 13) * ((100vw - 300px) / (1300 - 300)));
     font-weight: lighter;
     color: var(--pink-light);
 }
