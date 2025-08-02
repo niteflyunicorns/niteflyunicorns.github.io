@@ -1,0 +1,6 @@
+# ignore unusued and inspo files
+currentlyUnused/*
+inspo/*
+
+# ignore ~ files
+*~
