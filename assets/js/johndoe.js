@@ -214,18 +214,15 @@ $(window).on("load", function() {
 });
 
 // typing animation 
-$(window).on("load", function() {
-    var typed = $(".typed");
-
-    $(function() {
-	typed.typed({
-	    strings: ["Animator.", "Mathematician.", "Developer.", "Savannah,"],
-	    typeSpeed: 30,
-	    loop: false,
-	    showCursor: false,
-	    // onComplete:() => {
-	    // 	document.body.classList.remove("no-scroll");
-    	    // },
-	});
+// Wait for the page to load
+$(window).on("load", function () {
+  if (document.querySelector(".typed")) {
+    new Typed(".typed", {
+      strings: ["Animator.", "Mathematician.", "Developer.", "Savannah,"],
+      typeSpeed: 30,
+      loop: false,
+      showCursor: false
     });
+  }
 });
+
