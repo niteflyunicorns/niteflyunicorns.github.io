@@ -179,6 +179,11 @@ p, .p{
     margin-bottom: 1rem;
 }
 
+.p-link {
+    font-weight: 300;
+    color: var(--danger);
+}
+
 abbr[title],
 abbr[data-original-title] {
     text-decoration: underline;
@@ -513,7 +518,7 @@ h6, .h6 {
 
 huge-header, .huge-header {
     font-weight: 700;
-    font-size: 5rem;
+    font-size: clamp(48px, 10vw, 120px);
 }
 
 .lead {
@@ -719,6 +724,17 @@ pre code {
     display: flex;
     justify-content: center;
     height: 100vh;
+}
+.container-resume {
+    width: 100%;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.resume-title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ------------- about me hobbies grid card ----------- */
@@ -2943,6 +2959,10 @@ fieldset:disabled a.btn {
     color: #000;
     background-color: var(--pink);
     border-color: #FFCDD6;
+}
+
+.btn-responsive {
+    font-size: clamp(14px, 3vw, 28px);
 }
 
 .btn-transparent {
@@ -5262,7 +5282,7 @@ nav .logo img {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: var(--maroon);
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0;
@@ -6007,7 +6027,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     height: 0.3rem;
     overflow: hidden;
     font-size: 0.75rem;
-    background-color: #eaf0fc;
+    background-color: var(--black);
     border-radius: 0.25rem;
 }
 
@@ -6025,7 +6045,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: var(--black);
     text-align: center;
     white-space: nowrap;
     background-color: #F85C70;
@@ -11205,9 +11225,9 @@ p, .p {
 
 .line {
     display: block;
-    width: 25px;
+    width: 100px;
     height: 1.5px;
-    background-color: #F85C70;
+    background-color: var(--danger);
 }
 
 .breadcrumb {
@@ -11906,8 +11926,9 @@ pre .code {
     height: auto;
 }
 
-nav-buffer {
-    padding-top: var(--navbar-height);
+.nav-buffer {
+    height: calc( var(--navbar-height) + 1vh);
+    width: 100%;
 }
 
 .video-container {
