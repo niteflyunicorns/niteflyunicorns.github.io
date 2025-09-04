@@ -151,6 +151,7 @@ body {
 
 .body-gradient {
     background: linear-gradient(var(--black), #24000c, var(--pink-dark));
+    flex: 1;
 }
 
 main {
@@ -7807,6 +7808,7 @@ button.bg-dark:focus {
     position: relative;
     display: block;
     overflow: hidden;
+    flex: 1;
 }
 
 .embed-responsive::before {
