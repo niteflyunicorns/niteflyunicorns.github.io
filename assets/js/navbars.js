@@ -10,7 +10,7 @@ class Header extends HTMLElement {
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto p-4">
               <a href="index.html" class="nav-item nav-link fade-link">Home</a>
               <a href="portfolio.html" class="nav-item nav-link fade-link">Portfolio</a>
@@ -67,3 +67,35 @@ class Footer extends HTMLElement {
 
 customElements.define('nav-header', Header);
 customElements.define('nav-footer', Footer);
+
+
+$(document).ready(function() {
+    const $toggler = $('.navbar-toggler');
+    const $menu = $('.navbar-collapse');
+
+    // Open menu
+    $toggler.on('click', function(e) {
+        e.stopPropagation(); // Prevent immediate closing
+        $menu.addClass('show');
+        $toggler.hide();
+    });
+
+    // Close menu when clicking outside or on a link
+    $(document).on('click', function() {
+        if ($menu.hasClass('show')) {
+            $menu.removeClass('show');
+            $toggler.show();
+        }
+    });
+
+    // Prevent clicks inside menu from closing
+    $menu.on('click', function(e) {
+        e.stopPropagation();
+    });
+
+    // Close menu when clicking a nav link
+    $menu.find('a').on('click', function() {
+        $menu.removeClass('show');
+        $toggler.show();
+    });
+});
