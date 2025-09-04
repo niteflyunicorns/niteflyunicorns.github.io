@@ -470,14 +470,19 @@ h1, h2, h3, h4, h5, h6, huge-header,
 }
 
 /* MINE */
+.kerned-header-container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
 .kerned-header {
-    font-size: 5rem;
-    letter-spacing: 1em;
+    font-size: clamp(2rem, 5vw, 5rem);
+    letter-spacing: 5vw;
     color: var(--pink-light);
-    margin-bottom: 0.5rem;
     font-family: "Oswald";
     font-weight: 999;
-    margin-left: 0.75em;
+    margin-left: 5vw;
     justify-items: center;
     animation: fade-in 6s ease-in-out forwards;
 }
