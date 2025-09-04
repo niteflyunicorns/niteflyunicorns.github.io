@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'assets/imgs/**'   # runs only when imgs change
+      - 'assets/portfolio/**' # runs only when imgs change
   workflow_dispatch:       # allows you to run manually
 
 jobs:
