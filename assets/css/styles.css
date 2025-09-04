@@ -12097,7 +12097,6 @@ pre .code {
 /* end of MINE */
 
 .contact {
-    margin-top: calc( var(--navbar-height) + 2px );
     flex: 1;
     position: relative;
     min-height: 700px;
@@ -12113,12 +12112,12 @@ pre .code {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 40px 0;
+    padding: 2vh 0;
 }
 
 @media (max-width: 991.98px) {
     .contact {
-	padding: 300px 0 0;
+	/* padding: 300px 0 0; */
     }
     .contact .contact-form-card {
 	border-bottom: 1px solid #dee2e6;
