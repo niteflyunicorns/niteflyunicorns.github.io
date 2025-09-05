@@ -3,9 +3,9 @@ name: Optimize Images
 on:
   push:
     paths:
-      - 'assets/imgs/**'   # runs only when imgs change
-      - 'assets/portfolio/**' # runs only when imgs change
-  workflow_dispatch:       # allows you to run manually
+      - 'assets/imgs/**'
+      - 'assets/portfolio/**'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,12 +15,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      - name: Install WebP tools
+        run: sudo apt-get install -y webp
+
       - name: Convert images to WebP
-        uses: calibreapp/image-actions@main
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          compressOnly: false  # keep original + add .webp
-          quality: 90          # high quality for designers
+        run: |
+          find ./assets/imgs ./assets/portfolio -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) | while read img; do
+            cwebp -q 90 "$img" -o "${img%.*}.webp"
+          done
 
       - name: Commit optimized images
         uses: stefanzweifel/git-auto-commit-action@v5
