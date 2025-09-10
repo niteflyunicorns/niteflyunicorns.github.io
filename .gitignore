@@ -1,6 +1,7 @@
-# ignore unusued and inspo files
+# ignore these folders
 currentlyUnused/*
 local-only/*
+archive/*
 
 # ignore ~ files
 *~
