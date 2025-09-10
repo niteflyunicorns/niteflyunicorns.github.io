@@ -48,7 +48,12 @@ const grid = document.querySelector('.masonry-grid');
 imagesLoaded( grid, function() {
     new Masonry( grid, {
 	itemSelector: '.masonry-grid-item',
-	columnWidth: 200,
-	gutter: 5
+	// columnWidth: 10,
+	percentPosition: true,
+	gutter: 10
     });
 });
+
+// grid.imagesLoaded().progress( function() {
+//     grid.masonry('layout');
+// });

@@ -13,17 +13,16 @@
 
 <body>
   <nav-header></nav-header>
-  <nav-buffer></nav-buffer>
-
-  <div class="portfolio-project-header">
-      <huge-header class="portfolio-project-title" id="project-title"></huge-header>
-  </div>
+  <div class="nav-buffer"></div>
   <section class="video-container">
-    <div class="portfolio-project-desc">
-      <h2 class="project-details-bold">Project Type: <span class="p" id="project-type"></span><h2>
-      <h2 class="project-details-bold">Role: <span class="p" id="project-role"></span></h2>
-      <h2 class="project-details-bold">Software: <span class="p" id="project-software"></span></h2>
-      <p id="project-description"></p>
+    <div class="portfolio-project-header">
+      <huge-header class="portfolio-project-title" id="project-title"></huge-header>
+      <div class="portfolio-project-desc">
+	<h2 class="project-details-bold">Project Type: <span class="p" id="project-type"></span><h2>
+	    <h2 class="project-details-bold">Role: <span class="p" id="project-role"></span></h2>
+	    <h2 class="project-details-bold">Software: <span class="p" id="project-software"></span></h2>
+	    <!-- <p id="project-description"></p> -->
+      </div>
     </div>
     <video class="portfolio-video" id="project-video" autoplay muted loop playsinline>
       <source src="" type="video/mp4">
@@ -35,10 +34,15 @@
 
   <!-- Main Content -->
   <main class="gallery">
-    <div class="gallery-header">
-      <huge-header>GALLERY</huge-header>
-    </div>
+    <!-- <div class="gallery-header"> -->
+    <!--   <huge-header>GALLERY</huge-header> -->
+    <!-- </div> -->
     <div id="gallery-container" class="masonry-grid gallery-container">
+      <div class="masonry-grid-item">
+	<div class="grid-text">
+	  <p id="project-description"></p>
+	</div>
+      </div>
     </div>
 
   </main>

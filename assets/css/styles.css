@@ -12047,12 +12047,16 @@ pre .code {
 }
 
 .masonry-grid-item {
-    width: 30%;
-    margin-bottom: 20px;
-    padding: 2px 2px;
+    width: 19%;
+    margin-bottom: 10px;
+    /* padding: 2px 2px; */
     box-sizing: border-box;
-    background: var(--pink-light);
+    background: var(--black);
     border-radius: 0.5em;
+}
+
+.grid-text {
+    padding: 10px 18px 0px 12px;
 }
 
 .masonry-grid-item img {
@@ -12086,8 +12090,8 @@ pre .code {
     width: 100%;
     overflow: hidden;
     padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    /* padding-top: 5%; */
+    padding-bottom: 2%;
     padding-right: 2%;
 }
 
@@ -12098,11 +12102,11 @@ pre .code {
 .portfolio-project-header {
     width: 100%;
     padding-left: 5%;
-    margin-top: 5%;
+    /* margin-top: -12%; */
 }
 
 .portfolio-project-desc {
-    padding-left: 5%;
+    padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 2%;
     width: 50%;
