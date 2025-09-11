@@ -14,25 +14,22 @@
 <body>
   <nav-header></nav-header>
   <div class="nav-buffer"></div>
-  <section class="video-container">
-    <div class="portfolio-project-header">
+  <section class="portfolio-project-header">
+    <div class="item details">
       <huge-header class="portfolio-project-title" id="project-title"></huge-header>
-      <div class="portfolio-project-details">
-	<h2 class="project-details-bold">Project Type: <span class="p" id="project-type"></span><h2>
-	    <h2 class="project-details-bold">Role: <span class="p" id="project-role"></span></h2>
-	    <h2 class="project-details-bold">Software: <span class="p" id="project-software"></span></h2>
-	    <!-- <p id="project-description"></p> -->
-      </div>
+      <h2 class="project-details-bold">Project Type: <span class="p" id="project-type"></span><h2>
+	  <h2 class="project-details-bold">Role: <span class="p" id="project-role"></span></h2>
+	  <h2 class="project-details-bold">Software: <span class="p" id="project-software"></span></h2>
     </div>
-    <video class="portfolio-video" id="project-video" autoplay muted loop playsinline>
-      <source src="" type="video/mp4">
-      <!-- fallback image -->
-      <img src="" class="project-background" id="project-background" alt="Project preview">
-    </video>
-  </section>
-
-  <section class="portfolio-project-desc">
-    <h2 id="project-description" class="portfolio-project-desc"></h2>
+    <div class="item video video-container">
+      <video class="portfolio-video" id="project-video" autoplay muted loop playsinline>
+	<source src="" type="video/mp4">
+	<!-- fallback image -->
+	<img src="" class="project-background" id="project-background" alt="Project preview"></video>
+    </div>
+    <div class="item desc">
+      <h2 id="project-description" class="desc"></h2>
+    </div>
   </section>
 
 
