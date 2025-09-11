@@ -12210,6 +12210,35 @@ pre .code {
     flex: 1 1 50%;
 }
 
+.project-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-text {
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.nav-arrow {
+    font-weight: 800;
+    font-size: 2.2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+@media (max-width: 575px) {
+    .nav-text {
+	font-size: 1.5rem;
+    }
+    
+    .nav-arrow {
+	font-size: 1.7rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+    }
+}
+
 @media (max-width: 991.98px) {
     .portfolio-project-title {
 	text-transform: uppercase;
