@@ -12042,21 +12042,23 @@ pre .code {
 }
 
 .masonry-grid {
-    margin: 0 auto;
+    margin: auto auto;
     padding: 20px;
 }
 
+.masonry-grid-item, .grid-sizer {
+    width: 22%;
+}
+
 .masonry-grid-item {
-    width: 19%;
-    margin-bottom: 10px;
-    /* padding: 2px 2px; */
+    margin-bottom: 1%;
     box-sizing: border-box;
     background: var(--black);
     border-radius: 0.5em;
 }
 
 .grid-text {
-    padding: 10px 18px 0px 12px;
+    padding: 10px 18px 0px 12px
 }
 
 .masonry-grid-item img {
@@ -12064,6 +12066,10 @@ pre .code {
     height: auto;
     display: block;
     border-radius: 0.5rem;
+}
+
+.gutter-sizer {
+    width: 2%;
 }
 
 .gallery-image {
@@ -12105,11 +12111,21 @@ pre .code {
     /* margin-top: -12%; */
 }
 
-.portfolio-project-desc {
+.portfolio-project-details {
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 2%;
     width: 50%;
+}
+
+.portfolio-project-desc {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    width: 100%;
+    font-weight: 100;
+    justify-content: center;
 }
 
 /* end of MINE */
