@@ -29,15 +29,17 @@ if (project) {
 	})
     }
 
-    const videoFrame = document.getElementById('project-video');
+    const videoFrame = document.querySelector('.video-container')
+    const videoTag = document.getElementById('project-video');
     const imageTag = document.getElementById('project-image');
     // const videoTag = document.getElementById('project-video');
     // const sourceTag= videoTag.querySelector('source');
     // if (project.video && videoTag && sourceTag) {
     if (project.video && videoFrame) {
-	videoFrame.src = `https://www.youtube.com/embed/${project.video}?autoplay=1&mute=1&loop=1&playlist=${project.video}`;
+	videoTag.src = `https://www.youtube.com/embed/${project.video}?autoplay=1&mute=1&loop=1&playlist=${project.video}`;
     } else {
 	videoFrame.style.display = "none"; // Hide the video if not present
+	videoTag.style.display = "none";
 	imageTag.style.display = "block";
 	imageTag.src = project.bkgd;
     };

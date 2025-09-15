@@ -12039,6 +12039,7 @@ pre .code {
     justify-content: center;
     /* align-items: center; */
     flex: 1;
+    height: 100%;
 }
 
 .masonry-grid {
@@ -12237,7 +12238,6 @@ pre .code {
 
 .project-image {
     width: 100%;
-    max-width: 560px;
     height: auto;
     display: block;
     margin: 5vh 2vw 5vh 0vw;
@@ -12289,8 +12289,12 @@ pre .code {
 	order: 1;
     }
 
-    .video {
+    .header-media {
+	display: flex;
 	order: 2;
+	margin-right: 5%;
+	justify-content: center;
+	align-items: center;
     }
 
     .desc {
@@ -12308,11 +12312,11 @@ pre .code {
 
     .project-video {
 	height: 50vw;
-	margin: 2vh 4vw 2vh 0vw;
+	margin: 2vh 0vw 2vh 0vw;
     }
 
     .project-image {
-	margin: 2vh 5vw 2vh 0vw;
+	margin: 2vh 0vw 2vh 0vw;
     }
 }
 
@@ -12332,7 +12336,13 @@ pre .code {
 	padding-bottom: 2%;
 	width: 50%;
     }
-
+    
+    .header-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    }
+    
     .desc {
 	display: flex;
 	padding-right: 5%;
@@ -12346,7 +12356,7 @@ pre .code {
     }
 
     .video-container {
-	width: 50%;
+	/* width: 50%; */
     }
 
     .portfolio-video {
@@ -12371,11 +12381,12 @@ pre .code {
     }
 
     .project-image {
-	width: 100%;
-	max-width: 560px;
+	width: auto;
+	max-width: 45vw;
+	max-height: 35vw;
 	height: auto;
 	display: block;
-	margin: 5vh 2vw 5vh 0vw;
+	margin: 5vh 0vw 5vh 0vw;
     }
 }
 
