@@ -24,7 +24,7 @@ const projects = [
     {
 	id: 'draugr',
 	name: 'Draugr Planetary System',
-	bkgd: 'assets/portfolio/DraugrSystem/eeyo1.png',
+	bkgd: 'assets/portfolio/DraugrSystem/eeyo1.webp',
 	video: '8LdiCI4gxWs',
 	tags: ['all', 'animation', 'new'],
 	type: '3D Animation',
@@ -36,8 +36,8 @@ const projects = [
     {
 	id: 'particle',
 	name: 'Particle Countdown',
-	bkgd: 'assets/portfolio/Countdown/1-1.png',
-	video: 'assets/portfolio/Countdown/fullCountdown.mp4',
+	bkgd: 'assets/portfolio/Countdown/1-1.webp',
+	video: 'sWYanK61Lv0',
 	tags: ['all', 'animation', 'new'],
 	type: "3D Simulation",
 	role: "All",
@@ -48,7 +48,7 @@ const projects = [
     {
 	id: 'snaps',
 	name: 'SNAPS Website Revamp',
-	bkgd: 'assets/portfolio/SNAPSWebsite/portfolioSite1.png',
+	bkgd: 'assets/portfolio/SNAPSWebsite/snaps-landing.webp',
 	video: '',
 	tags: ['all', 'new', 'ui-ux'],
 	type: "UI/UX Design",
@@ -60,7 +60,7 @@ const projects = [
     {
 	id: 'portfolio-site',
 	name: 'Personal Portfolio Website',
-	bkgd: 'assets/portfolio/PortfolioWebsite/portfolioSite1.png',
+	bkgd: 'assets/portfolio/PortfolioWebsite/portfolioSite1.webp',
 	video: '',
 	tags: ['all', 'new', 'ui-ux'],
 	type: "UI/UX Design",
@@ -72,8 +72,8 @@ const projects = [
     {
 	id: 'grby',
 	name: 'GRBY SQRD App Prototype',
-	bkgd: 'assets/portfolio/GRBY-SQRD/still-large.png',
-	video: 'assets/portfolio/GRBY-SQRD/demo.mp4',
+	bkgd: 'assets/portfolio/GRBY-SQRD/still-large.webp',
+	video: '6h18yFOeIiw',
 	tags: ['all', 'new', 'ui-ux'],
 	type: "UI/UX Design",
 	role: "All",
@@ -84,7 +84,7 @@ const projects = [
     {
 	id: 'gill-sans',
 	name: 'Gill Sans Typographic Specimen',
-	bkgd: 'assets/portfolio/GillSans/bookMockup.jpg',
+	bkgd: 'assets/portfolio/GillSans/bookMockup.webp',
 	video: '',
 	tags: ['all', 'graphic-design'],
 	type: "Graphic Design",
@@ -96,7 +96,7 @@ const projects = [
     {
 	id: 'night-sky',
 	name: 'Night Sky Field Guide',
-	bkgd: 'assets/portfolio/NightSkyFieldGuide/fieldGuideMockup.png',
+	bkgd: 'assets/portfolio/NightSkyFieldGuide/fieldGuideMockup.webp',
 	video: '',
 	tags: ['all', 'graphic-design'],
 	type: "Graphic Design",
@@ -108,7 +108,7 @@ const projects = [
     {
 	id: 'txg',
 	name: 'TXG Logo',
-	bkgd: 'assets/portfolio/Logos/TXGLogo2-rgb.jpg',
+	bkgd: 'assets/portfolio/Logos/TXGLogo2-rgb.webp',
 	video: '',
 	tags: ['all', 'graphic-design'],
 	type: "Logo Design",
@@ -120,8 +120,8 @@ const projects = [
     {
 	id: 'music-fest',
 	name: 'N/A Music Fest Promo',
-	bkgd: 'assets/portfolio/MusicFest/still1.png',
-	video: 'assets/portfolio/MusicFest/promo.mp4',
+	bkgd: 'assets/portfolio/MusicFest/still1.webp',
+	video: 'UYIDDT0a1hE',
 	tags: ['all', 'animation'],
 	type: "2D Animation, Rotoscope",
 	role: "All",
@@ -132,9 +132,9 @@ const projects = [
     {
 	id: 'petes',
 	name: 'Prickly Pete\'s Branding',
-	bkgd: 'assets/portfolio/PricklyPetes/prickly-banner.jpg',
-	video: 'assets/portfolio/PricklyPetes/Promo/peteWalk.mp4',
-	tags: ['all', 'graphic-design', 'animation'],
+	bkgd: 'assets/portfolio/PricklyPetes/prickly-banner.webp',
+	video: 'WJD1SAXW7lU',
+	tags: ['all', 'graphic-design', 'animation', 'ui-ux'],
 	type: "Brand Development, Logo Design, Package Design, UI/UX, 3D Modeling, 3D Animation, Rigging, Lighting, Environment Design",
 	role: "All",
 	soft: "Adobe Illustrator, Adobe InDesign, Photoshop, Adobe XD, Cinema 4D",
@@ -144,8 +144,8 @@ const projects = [
     {
 	id: 'flag-tag',
 	name: 'FlagTag Promo',
-	bkgd: 'assets/portfolio/FlagTagPromo/still1.png',
-	video: 'assets/portfolio/FlagTagPromo/promo.mp4',
+	bkgd: 'assets/portfolio/FlagTagPromo/still1.webp',
+	video: 'u5MyfYMeoBo',
 	tags: ['all', 'animation'],
 	type: "3D Modeling, 3D Animation, Rigging, Lighting",
 	role: "All",
@@ -156,8 +156,8 @@ const projects = [
     {
 	id: 'lochness',
 	name: '"Lochness" Title Sequence',
-	bkgd: 'assets/portfolio/Lochness/still1.png',
-	video: 'assets/portfolio/Lochness/lochness_YTFormat.mp4',
+	bkgd: 'assets/portfolio/Lochness/still1.webp',
+	video: 'vrpciaDPwXU',
 	tags: ['all', 'animation'],
 	type: "2D Animation, Frame-by-frame, Motion Design",
 	role: "All",
@@ -168,20 +168,20 @@ const projects = [
     {
 	id: 'best-friends',
 	name: '"Best Friends" Short Narrative',
-	bkgd: 'assets/portfolio/ShortNarrative/still1.png',
-	video: 'assets/portfolio/ShortNarrative/bestFriends.mp4',
+	bkgd: 'assets/portfolio/ShortNarrative/still1.webp',
+	video: 'A23LXROqsfo',
 	tags: ['all', 'animation'],
 	type: "3D Animation, Rigging, Lighting, Environment Design, Motion Design",
 	role: "All",
 	soft: "Cinema 4D, Blender, Adobe After Effects",
-	desc: "The idea behind this short narrative was that there is a universe where every creature has it's own best friend, except for Dion - our protagonist. We meet a couple of best friend duos in a title-card style display which transitions from 2D silhouettes to 3D creatures. Then, we meet Dion, who is on a barren planet all on his own, looking for his best friend in various places. I built the model using a rudimentary low-poly technique, then rigged and animated it. Finally, we see Dion's title card with no match and Dion continues looking for his best friend, causing him to topple over. This gave me the opportunity to rig and animate a 3D character falling over, implementing secondary motion and response in the animation.",
+	desc: "This clip is from a short narrative about the idea that there is a universe where every creature has it's own best friend, except for Dion - our protagonist. In these scenes, we meet Dion, who is on a barren planet all on his own, looking for his best friend in various places. I built the model using a rudimentary low-poly technique, then rigged and animated it. Finally, we see Dion's title card with no match and Dion continues looking for his best friend, causing him to topple over. This gave me the opportunity to rig and animate a 3D character falling over, implementing secondary motion and response in the animation.",
 	dir: 'ShortNarrative'
     },
     {
 	id: 'creative-id',
 	name: 'Creative Identity',
-	bkgd: 'assets/portfolio/CreativeIdentity/still1.png',
-	video: 'assets/portfolio/CreativeIdentity/Comp1.mp4',
+	bkgd: 'assets/portfolio/CreativeIdentity/still1.webp',
+	video: '3GBlBIrOgWM',
 	tags: ['all', 'animation'],
 	type: "3D Animation, Compositing",
 	role: "All",
@@ -195,7 +195,8 @@ const projects = [
 function getImages(dir) {
   const fullPath = path.join(portfolioRoot, dir);
   return fs.readdirSync(fullPath)
-    .filter(f => /\.(png|jpg|jpeg|gif|webp)$/i.test(f))
+    // .filter(f => /\.(png|jpg|jpeg|gif|webp)$/i.test(f))
+    .filter(f => /\.(webp)$/i.test(f))
     .map(f => `assets/portfolio/${dir}/${f}`);
 }
 

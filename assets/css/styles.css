@@ -12202,6 +12202,7 @@ pre .code {
 }
 
 .desc-text {
+    margin-top: 1vw;
     font-weight: 100;
     font-size: calc(18px + (5) * ((100vw - 300px) / (1000)));
 }
@@ -12230,7 +12231,7 @@ pre .code {
 .project-video {
     position: relative;
     width: 100%;
-    margin: 10vh 2vw 10vh 0vw;
+    margin: 0vw 2vw 0vw 0vw;
     max-width: 900px;
 }
 
@@ -12365,7 +12366,7 @@ pre .code {
     .project-video {
 	position: relative;
 	width: 100%;
-	margin: 10vh 2vw 10vh 0vw;
+	margin: 0vw 2vw 0vw 0vw;
 	max-width: 900px;
     }
 
