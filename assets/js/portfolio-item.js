@@ -13,10 +13,9 @@ if (project) {
     document.getElementById('project-type').textContent = project.type;
     document.getElementById('project-role').textContent = project.role;
     document.getElementById('project-software').textContent = project.soft;
-    // document.getElementById('project-video').textContent = project.video;
-    const img = document.getElementById('project-background');
-    img.src = project.bkgd;
-    img.alt = project.name;
+    // const img = document.getElementById('project-background');
+    // img.src = project.bkgd;
+    // img.alt = project.name;
     if (galleryContainer) {
 	project.imgs.forEach( src => {
 	    const item = document.createElement("div");
@@ -30,13 +29,17 @@ if (project) {
 	})
     }
 
-    const videoTag = document.getElementById('project-video');
-    const sourceTag= videoTag.querySelector('source');
-    if (project.video && videoTag && sourceTag) {
-	sourceTag.src = project.video;
-	videoTag.load();
-    } else if (videoTag) {
-	videoTag.style.display = "none"; // Hide the video if not present
+    const videoFrame = document.getElementById('project-video');
+    const imageTag = document.getElementById('project-image');
+    // const videoTag = document.getElementById('project-video');
+    // const sourceTag= videoTag.querySelector('source');
+    // if (project.video && videoTag && sourceTag) {
+    if (project.video && videoFrame) {
+	videoFrame.src = `https://www.youtube.com/embed/${project.video}?autoplay=1&mute=1&loop=1&playlist=${project.video}`;
+    } else {
+	videoFrame.style.display = "none"; // Hide the video if not present
+	imageTag.style.display = "block";
+	imageTag.src = project.bkgd;
     };
 } else {
     document.getElementById('project-title').textContent = "Project Not Found";
