@@ -156,7 +156,7 @@ const projects = [
     {
 	id: 'lochness',
 	name: '"Lochness" Title Sequence',
-	bkgd: 'assets/portfolio/Lochness/still1.webp',
+	bkgd: 'assets/portfolio/Lochness/still5.webp',
 	video: 'vrpciaDPwXU',
 	tags: ['all', 'animation'],
 	type: "2D Animation, Frame-by-frame, Motion Design",
@@ -180,7 +180,7 @@ const projects = [
     {
 	id: 'creative-id',
 	name: 'Creative Identity',
-	bkgd: 'assets/portfolio/CreativeIdentity/still1.webp',
+	bkgd: 'assets/portfolio/CreativeIdentity/still4.webp',
 	video: '3GBlBIrOgWM',
 	tags: ['all', 'animation'],
 	type: "3D Animation, Compositing",
