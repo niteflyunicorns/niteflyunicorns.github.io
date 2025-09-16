@@ -24,7 +24,15 @@ jobs:
             cwebp -q 90 "$img" -o "${img%.*}.webp"
           done
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run generateProjects.js
+        run: node assets/js/generateProjects.js
+
       - name: Commit optimized images
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: optimize images"
+          commit_message: "chore: optimize images & generate updated image lists for portfolio projects"
