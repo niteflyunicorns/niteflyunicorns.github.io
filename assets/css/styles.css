@@ -499,6 +499,7 @@ h1, .h1 {
 
 h2, .h2 {
     font-size: 2rem;
+    /* font-size: clamp(12px, 1.5rem, 24px); */
     font-weight: 600;
 }
 
@@ -12258,7 +12259,7 @@ pre .code {
 @media (max-width: 991.98px) {
     .portfolio-project-title {
 	text-transform: uppercase;
-	font-size: 15vw;
+	font-size: clamp(48px, 14vw, 120px);
     }
     .portfolio-project-header {
 	width: 100%;
@@ -12323,7 +12324,7 @@ pre .code {
 @media (min-width: 992px) {
     .portfolio-project-title {
 	text-transform: uppercase;
-	font-size: 8vw;
+	font-size: clamp(48px, 8vw, 100px);
     }
     .portfolio-project-header {
 	width: 100%;
