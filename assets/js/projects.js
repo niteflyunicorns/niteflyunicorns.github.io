@@ -14,17 +14,17 @@ window.projects = [
         "soft": "Blender, Adobe After Effects",
         "desc": "This project was the result of an overhaul of an old project. The original project was a study on worldbuilding. Everything from location, history, environment, seasons, culture, and characters was designed and built from scratch. The original world consisted of a intergalactic planetary system called Draugr - named as such because the system orbits a pulsar, (the naming was inspired by the exoplanet Draugr, which orbits a pulsar and is named after undead creatures from Norse mythology, a name suitable for a planet orbiting the remnants of a supernova), which was home to several unique alien creatures. The preliminary design was rough in terms of design, but fairly well fleshed out in terms of story. From there, I refined the overall design of the planets, converting them from the original 2D concept art to the 3D versions they are currently. The planets were built and textured in Blender, then the FUI was added over the footage in Adobe After Effects. In addition to the 3D modeling, texturing and animation, I conducted research on known exoplanets in order to achieve some amount of realism in the data for each planet. This included information about how mass and temperature of planets affect and are affected by their distance from their host star, how the host star's composition affects the system, and how the composition of a planet's atmosphere affects it's color and temperature.",
         "imgs": [
+            "assets/portfolio/DraugrSystem/PhobarStill.webp",
+            "assets/portfolio/DraugrSystem/RhyelStill.webp",
+            "assets/portfolio/DraugrSystem/RonosStill.webp",
             "assets/portfolio/DraugrSystem/draugrInterface-eeyo.webp",
             "assets/portfolio/DraugrSystem/draugrInterface-rhyel.webp",
             "assets/portfolio/DraugrSystem/eeyo1.webp",
-            "assets/portfolio/DraugrSystem/PhobarStill.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-01.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-02.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-04.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-05.webp",
-            "assets/portfolio/DraugrSystem/radarGraphs1-05.webp",
-            "assets/portfolio/DraugrSystem/RhyelStill.webp",
-            "assets/portfolio/DraugrSystem/RonosStill.webp"
+            "assets/portfolio/DraugrSystem/radarGraphs1-05.webp"
         ]
     },
     {
@@ -78,7 +78,10 @@ window.projects = [
         "role": "Design",
         "soft": "Figma",
         "desc": "I undertook this project as part of my participation in the SNAPS research team. I took the original website, and revamped it for the new era in the SNAPS project. This effort was influenced by the use cases and needs of not only the SNAPS team, but also of the greater user base. The design went through several iterations before landing on the final design, which was then developed by another member of the SNAPS team. In figma, not only did I layout the design, but I also prototyped the design, which could then be exported and serve as a starting point for the developer. In addition to the design, I used Inkscape to design icons and supporting graphics where needed. This website focuses on easy data access, customization of queries, and usability, all wrapped up in a soft, modern, dark-theme-forward interface.",
-        "imgs": []
+        "imgs": [
+            "assets/portfolio/SNAPSWebsite/figma-layout.webp",
+            "assets/portfolio/SNAPSWebsite/snaps-landing.webp"
+        ]
     },
     {
         "id": "portfolio-site",
@@ -94,7 +97,9 @@ window.projects = [
         "role": "All",
         "soft": "HTML, CSS, Inkscape",
         "desc": "This website, the one you are currently on and exploring -- feel free to explore around the site! The design of this website began through Wix, where I found I didn't like the lack of customization and flexibility. Then, inspired by an associate's personal website, I decided to move the old website to GitHub, where I started with a template from DevCrud and worked up from there, customizing everything to fit my needs. By this point, anything left from the original template is either not being used, is a necessary functionality (not a design element), or has been replaced by my own version.",
-        "imgs": []
+        "imgs": [
+            "assets/portfolio/PortfolioWebsite/portfolioSite1.webp"
+        ]
     },
     {
         "id": "grby",
@@ -191,10 +196,10 @@ window.projects = [
             "assets/portfolio/Logos/FoodIcons-05.webp",
             "assets/portfolio/Logos/FoodIcons-07.webp",
             "assets/portfolio/Logos/FoodIcons-10.webp",
+            "assets/portfolio/Logos/TXGLogo2-rgb.webp",
             "assets/portfolio/Logos/txg-sticker.webp",
             "assets/portfolio/Logos/txgLogo-grey.webp",
-            "assets/portfolio/Logos/txgLogo1-p0421.webp",
-            "assets/portfolio/Logos/TXGLogo2-rgb.webp"
+            "assets/portfolio/Logos/txgLogo1-p0421.webp"
         ]
     },
     {
@@ -268,7 +273,7 @@ window.projects = [
     {
         "id": "lochness",
         "name": "\"Lochness\" Title Sequence",
-        "bkgd": "assets/portfolio/Lochness/still1.webp",
+        "bkgd": "assets/portfolio/Lochness/still5.webp",
         "video": "vrpciaDPwXU",
         "tags": [
             "all",
@@ -278,7 +283,12 @@ window.projects = [
         "role": "All",
         "soft": "Procreate, Adobe After Effects",
         "desc": "This is a title sequence that I designed based on the legend of the Loch Ness monster. The lochness monster scenes are all hand drawn frame by frame in Procreate and overlayed onto text in Adobe After Effects.",
-        "imgs": []
+        "imgs": [
+            "assets/portfolio/ShortNarrative/still1.webp",
+            "assets/portfolio/ShortNarrative/storyboard1.webp",
+            "assets/portfolio/ShortNarrative/storyboard2.webp",
+            "assets/portfolio/ShortNarrative/storyboard3.webp"
+        ]
     },
     {
         "id": "best-friends",
@@ -293,12 +303,17 @@ window.projects = [
         "role": "All",
         "soft": "Cinema 4D, Blender, Adobe After Effects",
         "desc": "This clip is from a short narrative about the idea that there is a universe where every creature has it's own best friend, except for Dion - our protagonist. In these scenes, we meet Dion, who is on a barren planet all on his own, looking for his best friend in various places. I built the model using a rudimentary low-poly technique, then rigged and animated it. Finally, we see Dion's title card with no match and Dion continues looking for his best friend, causing him to topple over. This gave me the opportunity to rig and animate a 3D character falling over, implementing secondary motion and response in the animation.",
-        "imgs": []
+        "imgs": [
+            "assets/portfolio/ShortNarrative/still1.webp",
+            "assets/portfolio/ShortNarrative/storyboard1.webp",
+            "assets/portfolio/ShortNarrative/storyboard2.webp",
+            "assets/portfolio/ShortNarrative/storyboard3.webp"
+        ]
     },
     {
         "id": "creative-id",
         "name": "Creative Identity",
-        "bkgd": "assets/portfolio/CreativeIdentity/still1.webp",
+        "bkgd": "assets/portfolio/CreativeIdentity/still4.webp",
         "video": "3GBlBIrOgWM",
         "tags": [
             "all",
@@ -308,6 +323,13 @@ window.projects = [
         "role": "All",
         "soft": "Cinema 4D, Adobe After Effects",
         "desc": "This is just a little personal promo I did that quickly explains/shows who I am as a creative being. It includes some fun facts about me that pertain to what I consider to be my 'creative identity'. I am Flagstaff born and raised, which obviously influences my identity in more ways than I can even describe. I am an animator and a huge fan of Pixar movies. I am constantly inspired by the work that the animators at Pixar do, and my love for Pixar (style and history) influences my animation style. I absolutely love cats, and you might spot them in some of my animations. I am a musician. I have been playing guitar for 15 years, singing and performing for almost as long, and writing my own songs for about half that time. I love music and love the freedom and creative outlet it provides. I'm a huge math nerd. While most people won't understand or relate, I find theoretical math to be absolutely phenomenal and beautiful and I love learning new things in math. I am an artist, and the creator of hundreds of Mayhem Creatures or - more aptly - characters of my own design and imagination based on my desire to challenge my need for perfection. I am so proud of them and how they have made me grow as an artist. I modeled each object in 3D in Cinema 4D and then rendered them out using a 2D cartoon shader so that they appear 2D. The text and intro were animated in Adobe After Effects.",
-        "imgs": []
+        "imgs": [
+            "assets/portfolio/CreativeIdentity/still1.webp",
+            "assets/portfolio/CreativeIdentity/still2.webp",
+            "assets/portfolio/CreativeIdentity/still3.webp",
+            "assets/portfolio/CreativeIdentity/still4.webp",
+            "assets/portfolio/CreativeIdentity/still5.webp",
+            "assets/portfolio/CreativeIdentity/still6.webp"
+        ]
     }
 ];
