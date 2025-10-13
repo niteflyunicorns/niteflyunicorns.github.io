@@ -163,7 +163,7 @@ const projects = [
 	role: "All",
 	soft: "Procreate, Adobe After Effects",
 	desc: "This is a title sequence that I designed based on the legend of the Loch Ness monster. The lochness monster scenes are all hand drawn frame by frame in Procreate and overlayed onto text in Adobe After Effects.",
-	dir: 'ShortNarrative'
+	dir: 'Lochness'
     },
     {
 	id: 'best-friends',
