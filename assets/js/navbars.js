@@ -18,8 +18,7 @@ class Header extends HTMLElement {
               <a href="portfolio.html" class="nav-item nav-link fade-link">Portfolio</a>
               <a href="reel.html" class="nav-item nav-link fade-link">Reel</a>
 	      <a href="resume.html" class="nav-item nav-link fade-link">Resume</a>
-	      <!-- <a href="research.html" class="nav-item nav-link fade-link">Research</a> -->
-	      <a href="construction.html" class="nav-item nav-link fade-link">Research</a>
+	      <a href="research.html" class="nav-item nav-link fade-link">Research</a>
               <a href="about.html" class="nav-item nav-link fade-link">About</a>
               <a href="contact.html" class="nav-item nav-link fade-link">Contact</a>
             </div>

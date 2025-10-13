@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=none"/>
+  <meta name="author" content="niteflyunicorns">
+  
+  <title>niteflyunicorns | GPU Optimization of DBSCAN</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+  <nav-header></nav-header>
+  <div class="nav-buffer"></div>
+  <section class="portfolio-project-header">
+    <div class="item details">
+      <huge-header class="portfolio-project-title" id="project-title">GPU Optimization of DBSCAN</huge-header>
+      <h4 class="project-details-bold">Role: <span class="p">All</span></h4>
+      <h4 class="project-details-bold">Skills: <span class="p">Research, Writing, HPC, GPU Programming, CUDA, C/C++, Python</span></h4>
+      <h2 id="project-description" class="desc-text">Algorithms that are capable of distinquishing between high and low density regions are especially benefitial in machine learning and unsupervised data mining. There are limitations to parallelizing the DBSCAN algorithm because of its inherent sequential operation. We acknowledge other work in the area, including that which parallelizes the algorithm for multi-core CPUs and many-core GPUs. In this paper, we propose a unique framework for GPU-accelerated density-based clustering that takes advantage of integration between the CPU and the GPU and navigates the sequential portions of the algorithm. In comparison with other work on the algorithm, our approach consists of four main aspects: <br><br>(i) presorts the data to avoid expensive computations through large datasets, <br>(ii) effectively divides work between the GPU and CPU to take advantage of their individual strengths, <br>(iii) takes advantage of additional parameters to limit the searches for neighbors further than presorting the data does, and <br>(iv) leverages additional data structures like the disjoint-set structure to effectively manage clustering on the CPU in a time-sensitive fashion. <br><br>Additionally, we test our algorithm on two real-world datasets. Our optimized algorithm achieves a ~8x speedup over baseline parallel GPU algorithm.</h2>
+    </div>
+    <!-- <div class="item desc"> -->
+    <!-- </div> -->
+  </section>
+
+  <!-- Main Content -->
+  <main class="research-details">
+    <div class="item">
+      <huge-header>REPORT</huge-header>
+      <div class="pdf-container">
+	<iframe src="assets/research/DBSCAN-GPU/DBSCAN-Report.pdf"></iframe>
+      </div>
+    </div>
+    <div class="item">
+      <div class="gallery-header">
+	<huge-header>GALLERY</huge-header>
+      </div>
+      <div id="large-research-gallery" class="large-research-gallery">
+	<img src="assets/research/DBSCAN-GPU/cluster-ex.png" alt="Example of DBSCAN clustering">
+	<img src="assets/research/DBSCAN-GPU/results1.png" alt="Speedup results">
+	<img src="assets/research/DBSCAN-GPU/results2.png" alt="Speedup results">
+      </div>
+    </div>
+  </main>
+
+  
+    <!-- masonry -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+  
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/js/navbars.js"></script>
+    <script src="assets/js/project-nav.js"></script>
+    
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- Typing Animation -->
+    <script src="assets/js/typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
+
+    <nav-footer></nav-footer>
+  
+  </body>
+</html>
