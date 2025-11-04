@@ -11,17 +11,12 @@ window.projects = [
         "type": "Video Editing",
         "role": "Editing, Compositing, Graphics",
         "soft": "DaVinci Resolve",
-<<<<<<< HEAD
         "desc": "This is a short video promo that I did for Flagstaff's High Altitude Roller Derby (HARD) league. I combined footage from HARD games with cheeky text playing on their acronym 'HARD'. The editing was all done in DaVinci Resolve. <br><br>Flagstaff's roller derby league runs on volunteer support, so if you or someone you know is interested in supporting an amazing sport like roller derby, they are always looking for volunteers (and skaters!). <br><br>If you'd like to learn more about Flagstaff roller derby, please visit <a href=\"https://www.hardderby.com/\">HARD's website<a>. <br><br>Music Credit: <br>Hard by Alex-Productions | <a href=\"https://onsound.eu/\">https://onsound.eu/</a> <br>Music promoted by <a href=\"https://www.free-stock-music.com\">https://www.free-stock-music.com</a> <br>Creative Commons / Attribution 3.0 Unported License (CC BY 3.0) <br><a href=\"https://creativecommons.org/licenses/...\">https://creativecommons.org/licenses/...</a> <br><br>Footage Credit: <br>High Altitude Roller Derby",
-        "imgs": []
-=======
-        "desc": "This is a short video promo that I did for Flagstaff's High Altitude Roller Derby (HARD) league. I combined footage from HARD games with cheeky text playing on their acronym 'HARD'. The editing was all done in DaVinci Resolve. <br><br>Flagstaff's roller derby league runs on volunteer support, so if you or someone you know is interested in supporting an amazing sport like roller derby, they are always looking for volunteers (and skaters!). <br><br>If you'd like to learn more about Flagstaff roller derby, please visit https://www.hardderby.com/ <br><br>Music Credit: <br>Hard by Alex-Productions | https://onsound.eu/ <br>Music promoted by https://www.free-stock-music.com <br>Creative Commons / Attribution 3.0 Unported License (CC BY 3.0) <br>https://creativecommons.org/licenses/... <br><br>Footage Credit: <br>High Altitude Roller Derby",
         "imgs": [
             "assets/portfolio/HARD-Promo/cover-image.webp",
             "assets/portfolio/HARD-Promo/snapshot1.webp",
             "assets/portfolio/HARD-Promo/snapshot2.webp"
         ]
->>>>>>> ee4e15ee9975b82092c8f5f8bbdfb7510ddcc2a7
     },
     {
         "id": "draugr",
