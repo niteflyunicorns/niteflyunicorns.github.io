@@ -11,8 +11,17 @@ window.projects = [
         "type": "Video Editing",
         "role": "Editing, Compositing, Graphics",
         "soft": "DaVinci Resolve",
+<<<<<<< HEAD
         "desc": "This is a short video promo that I did for Flagstaff's High Altitude Roller Derby (HARD) league. I combined footage from HARD games with cheeky text playing on their acronym 'HARD'. The editing was all done in DaVinci Resolve. <br><br>Flagstaff's roller derby league runs on volunteer support, so if you or someone you know is interested in supporting an amazing sport like roller derby, they are always looking for volunteers (and skaters!). <br><br>If you'd like to learn more about Flagstaff roller derby, please visit <a href=\"https://www.hardderby.com/\">HARD's website<a>. <br><br>Music Credit: <br>Hard by Alex-Productions | <a href=\"https://onsound.eu/\">https://onsound.eu/</a> <br>Music promoted by <a href=\"https://www.free-stock-music.com\">https://www.free-stock-music.com</a> <br>Creative Commons / Attribution 3.0 Unported License (CC BY 3.0) <br><a href=\"https://creativecommons.org/licenses/...\">https://creativecommons.org/licenses/...</a> <br><br>Footage Credit: <br>High Altitude Roller Derby",
         "imgs": []
+=======
+        "desc": "This is a short video promo that I did for Flagstaff's High Altitude Roller Derby (HARD) league. I combined footage from HARD games with cheeky text playing on their acronym 'HARD'. The editing was all done in DaVinci Resolve. <br><br>Flagstaff's roller derby league runs on volunteer support, so if you or someone you know is interested in supporting an amazing sport like roller derby, they are always looking for volunteers (and skaters!). <br><br>If you'd like to learn more about Flagstaff roller derby, please visit https://www.hardderby.com/ <br><br>Music Credit: <br>Hard by Alex-Productions | https://onsound.eu/ <br>Music promoted by https://www.free-stock-music.com <br>Creative Commons / Attribution 3.0 Unported License (CC BY 3.0) <br>https://creativecommons.org/licenses/... <br><br>Footage Credit: <br>High Altitude Roller Derby",
+        "imgs": [
+            "assets/portfolio/HARD-Promo/cover-image.webp",
+            "assets/portfolio/HARD-Promo/snapshot1.webp",
+            "assets/portfolio/HARD-Promo/snapshot2.webp"
+        ]
+>>>>>>> ee4e15ee9975b82092c8f5f8bbdfb7510ddcc2a7
     },
     {
         "id": "draugr",
@@ -29,17 +38,17 @@ window.projects = [
         "soft": "Blender, Adobe After Effects",
         "desc": "This project was the result of an overhaul of an old project. The original project was a study on worldbuilding. Everything from location, history, environment, seasons, culture, and characters was designed and built from scratch. The original world consisted of a intergalactic planetary system called Draugr - named as such because the system orbits a pulsar, (the naming was inspired by the exoplanet Draugr, which orbits a pulsar and is named after undead creatures from Norse mythology, a name suitable for a planet orbiting the remnants of a supernova), which was home to several unique alien creatures. The preliminary design was rough in terms of design, but fairly well fleshed out in terms of story. From there, I refined the overall design of the planets, converting them from the original 2D concept art to the 3D versions they are currently. The planets were built and textured in Blender, then the FUI was added over the footage in Adobe After Effects. In addition to the 3D modeling, texturing and animation, I conducted research on known exoplanets in order to achieve some amount of realism in the data for each planet. This included information about how mass and temperature of planets affect and are affected by their distance from their host star, how the host star's composition affects the system, and how the composition of a planet's atmosphere affects it's color and temperature.",
         "imgs": [
+            "assets/portfolio/DraugrSystem/PhobarStill.webp",
+            "assets/portfolio/DraugrSystem/RhyelStill.webp",
+            "assets/portfolio/DraugrSystem/RonosStill.webp",
             "assets/portfolio/DraugrSystem/draugrInterface-eeyo.webp",
             "assets/portfolio/DraugrSystem/draugrInterface-rhyel.webp",
             "assets/portfolio/DraugrSystem/eeyo1.webp",
-            "assets/portfolio/DraugrSystem/PhobarStill.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-01.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-02.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-04.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-05.webp",
-            "assets/portfolio/DraugrSystem/radarGraphs1-05.webp",
-            "assets/portfolio/DraugrSystem/RhyelStill.webp",
-            "assets/portfolio/DraugrSystem/RonosStill.webp"
+            "assets/portfolio/DraugrSystem/radarGraphs1-05.webp"
         ]
     },
     {
@@ -211,10 +220,10 @@ window.projects = [
             "assets/portfolio/Logos/FoodIcons-05.webp",
             "assets/portfolio/Logos/FoodIcons-07.webp",
             "assets/portfolio/Logos/FoodIcons-10.webp",
+            "assets/portfolio/Logos/TXGLogo2-rgb.webp",
             "assets/portfolio/Logos/txg-sticker.webp",
             "assets/portfolio/Logos/txgLogo-grey.webp",
-            "assets/portfolio/Logos/txgLogo1-p0421.webp",
-            "assets/portfolio/Logos/TXGLogo2-rgb.webp"
+            "assets/portfolio/Logos/txgLogo1-p0421.webp"
         ]
     },
     {
