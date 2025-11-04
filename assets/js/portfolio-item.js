@@ -9,7 +9,7 @@ const galleryContainer = document.getElementById("gallery-container");
 if (project) {
     document.getElementById('project-title').textContent = project.name;
     document.title = `niteflyunicorns | ${project.name}`;
-    document.getElementById('project-description').textContent = project.desc;
+    document.getElementById('project-description').innerHTML = project.desc;
     document.getElementById('project-type').textContent = project.type;
     document.getElementById('project-role').textContent = project.role;
     document.getElementById('project-software').textContent = project.soft;

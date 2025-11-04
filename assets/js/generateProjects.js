@@ -22,6 +22,18 @@ const portfolioRoot = path.join(__dirname, '../portfolio');
 
 const projects = [
     {
+	id: 'hard-promo',
+	name: 'High Altitude Roller Derby Video Promo',
+	bkgd: 'assets/portfolio/HARD-Promo/cover-image.webp',
+	video: 'tJ4EdjxokNI',
+	tags: ['all', 'new'],
+	type: 'Video Editing',
+	role: 'Editing, Compositing, Graphics',
+	soft: 'DaVinci Resolve',
+	desc: "This is a short video promo that I did for Flagstaff's High Altitude Roller Derby (HARD) league. I combined footage from HARD games with cheeky text playing on their acronym 'HARD'. The editing was all done in DaVinci Resolve. <br><br>Flagstaff's roller derby league runs on volunteer support, so if you or someone you know is interested in supporting an amazing sport like roller derby, they are always looking for volunteers (and skaters!). <br><br>If you'd like to learn more about Flagstaff roller derby, please visit https://www.hardderby.com/ <br><br>Music Credit: <br>Hard by Alex-Productions | https://onsound.eu/ <br>Music promoted by https://www.free-stock-music.com <br>Creative Commons / Attribution 3.0 Unported License (CC BY 3.0) <br>https://creativecommons.org/licenses/... <br><br>Footage Credit: <br>High Altitude Roller Derby",
+	dir: 'HARD-Promo'
+    },
+    {
 	id: 'draugr',
 	name: 'Draugr Planetary System',
 	bkgd: 'assets/portfolio/DraugrSystem/eeyo1.webp',
