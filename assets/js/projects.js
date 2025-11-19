@@ -33,17 +33,17 @@ window.projects = [
         "soft": "Blender, Adobe After Effects",
         "desc": "This project was the result of an overhaul of an old project. The original project was a study on worldbuilding. Everything from location, history, environment, seasons, culture, and characters was designed and built from scratch. The original world consisted of a intergalactic planetary system called Draugr - named as such because the system orbits a pulsar, (the naming was inspired by the exoplanet Draugr, which orbits a pulsar and is named after undead creatures from Norse mythology, a name suitable for a planet orbiting the remnants of a supernova), which was home to several unique alien creatures. The preliminary design was rough in terms of design, but fairly well fleshed out in terms of story. From there, I refined the overall design of the planets, converting them from the original 2D concept art to the 3D versions they are currently. The planets were built and textured in Blender, then the FUI was added over the footage in Adobe After Effects. In addition to the 3D modeling, texturing and animation, I conducted research on known exoplanets in order to achieve some amount of realism in the data for each planet. This included information about how mass and temperature of planets affect and are affected by their distance from their host star, how the host star's composition affects the system, and how the composition of a planet's atmosphere affects it's color and temperature.",
         "imgs": [
-            "assets/portfolio/DraugrSystem/PhobarStill.webp",
-            "assets/portfolio/DraugrSystem/RhyelStill.webp",
-            "assets/portfolio/DraugrSystem/RonosStill.webp",
             "assets/portfolio/DraugrSystem/draugrInterface-eeyo.webp",
             "assets/portfolio/DraugrSystem/draugrInterface-rhyel.webp",
             "assets/portfolio/DraugrSystem/eeyo1.webp",
+            "assets/portfolio/DraugrSystem/PhobarStill.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-01.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-02.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-04.webp",
             "assets/portfolio/DraugrSystem/radarGraphs-05.webp",
-            "assets/portfolio/DraugrSystem/radarGraphs1-05.webp"
+            "assets/portfolio/DraugrSystem/radarGraphs1-05.webp",
+            "assets/portfolio/DraugrSystem/RhyelStill.webp",
+            "assets/portfolio/DraugrSystem/RonosStill.webp"
         ]
     },
     {
@@ -97,10 +97,7 @@ window.projects = [
         "role": "Design",
         "soft": "Figma",
         "desc": "I undertook this project as part of my participation in the SNAPS research team. I took the original website, and revamped it for the new era in the SNAPS project. This effort was influenced by the use cases and needs of not only the SNAPS team, but also of the greater user base. The design went through several iterations before landing on the final design, which was then developed by another member of the SNAPS team. In figma, not only did I layout the design, but I also prototyped the design, which could then be exported and serve as a starting point for the developer. In addition to the design, I used Inkscape to design icons and supporting graphics where needed. This website focuses on easy data access, customization of queries, and usability, all wrapped up in a soft, modern, dark-theme-forward interface.",
-        "imgs": [
-            "assets/portfolio/SNAPSWebsite/figma-layout.webp",
-            "assets/portfolio/SNAPSWebsite/snaps-landing.webp"
-        ]
+        "imgs": []
     },
     {
         "id": "portfolio-site",
@@ -215,10 +212,10 @@ window.projects = [
             "assets/portfolio/Logos/FoodIcons-05.webp",
             "assets/portfolio/Logos/FoodIcons-07.webp",
             "assets/portfolio/Logos/FoodIcons-10.webp",
-            "assets/portfolio/Logos/TXGLogo2-rgb.webp",
             "assets/portfolio/Logos/txg-sticker.webp",
             "assets/portfolio/Logos/txgLogo-grey.webp",
-            "assets/portfolio/Logos/txgLogo1-p0421.webp"
+            "assets/portfolio/Logos/txgLogo1-p0421.webp",
+            "assets/portfolio/Logos/TXGLogo2-rgb.webp"
         ]
     },
     {
