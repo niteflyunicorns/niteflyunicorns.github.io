@@ -780,6 +780,7 @@ pre code {
     padding: 20px;
     border-radius: 8px;
     font-family: 'Oswald', sans-serif;
+    style:
     /* margin-top: 20px; */
 }
 .hobbies-card h2 {
@@ -787,27 +788,44 @@ pre code {
     font-size: 2em;
     margin-bottom: 10px;
 }
-.hobbies-card ul {
+.hobbies-icon-holder {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: black;
-    padding: 10px;
+    width: 100%;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 3%;
 }
+.hobbies-icon-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.hobbies-header {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+/* .hobbies-card ul { */
+/*     display: grid; */
+/*     grid-template-columns: auto auto auto auto; */
+/*     background-color: black; */
+/*     padding: 10px; */
+/* } */
 
-.hobbies-card ul > div {
-    background-color: black;
-    padding: 10px;
-    /* font-size: 30px; */
-    text-align: center;
-}
+/* .hobbies-card ul > div { */
+/*     background-color: black; */
+/*     padding: 10px; */
+/*     /\* font-size: 30px; *\/ */
+/*     text-align: center; */
+/* } */
 
-.hobbies-card li {
-    font-size: 1.2em;
-    margin: 5px 0;
-}
-.hobbies-card li h3 {
-    color: var(--pink);
-}
+/* .hobbies-card li { */
+/*     font-size: 1.2em; */
+/*     margin: 5px 0; */
+/* } */
+/* .hobbies-card li h3 { */
+/*     color: var(--pink); */
+/* } */
 /* end of MINE */
 
 .content-wrapper {
@@ -12074,7 +12092,9 @@ pre .code {
 }
 
 .masonry-grid {
-    margin: auto auto;
+    position: relative;
+    margin-top: 1.5rem;
+    /* margin: auto auto; */
     padding: 20px;
 }
 
@@ -12190,10 +12210,16 @@ pre .code {
     background: var(--maroon);
 }
 
+.gallery-section {
+    margin-bottom: 10%;
+}
+
 .gallery-header {
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    position: relative;
+    z-index: 2;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .portfolio-video {
