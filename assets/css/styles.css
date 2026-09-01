@@ -778,10 +778,7 @@ pre code {
 .hobbies-card {
     background-color: black;
     padding: 20px;
-    border-radius: 8px;
     font-family: 'Oswald', sans-serif;
-    style:
-    /* margin-top: 20px; */
 }
 .hobbies-card h2 {
     color: var(--pink);
@@ -12023,10 +12020,6 @@ pre .code {
     background: rgba(242, 244, 247, 0.15);
 }
 
-.about-section {
-    border-bottom: 1px solid #dee2e6;
-}
-
 .about-section .about-card {
     padding: 60px;
     border-right: 1px solid #dee2e6;
@@ -12054,6 +12047,26 @@ pre .code {
     margin-left: 10vw;
     margin-top: 200px;
     color: var(--pink-light);
+}
+
+.about-section-title {
+    font-size: calc(40px + (64 - 40) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: bold;
+    line-height: .7;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    color: var(--pink-light);
+}
+
+.about-card {
+    position: relative;
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.about-card a:hover {
+    size: 110%;
 }
 
 .video-wrapper {
