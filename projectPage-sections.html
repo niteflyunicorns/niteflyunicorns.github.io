@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=none"/>
+  <meta name="author" content="niteflyunicorns">
+  
+  <title>niteflyunicorns | <span id="page-title"></span></title>
+  <!-- styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+  <nav-header></nav-header>
+  <div class="nav-buffer"></div>
+  <section class="portfolio-project-header">
+    <div class="item details">
+      <huge-header class="portfolio-project-title" id="project-title"></huge-header>
+      <h4 class="project-details-bold">Project Type: <span class="p" id="project-type"></span><h4>
+	  <h4 class="project-details-bold">Role: <span class="p" id="project-role"></span></h4>
+	  <h4 class="project-details-bold">Software: <span class="p" id="project-software"></span></h4>
+    </div>
+    <div class="item header-media">
+      <div class="video-container">
+	<iframe id="project-video" class="project-video" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <img id="project-image" class="project-image" style="display: none" alt="Project preview">
+    </div>
+    <div class="item desc">
+      <h2 id="project-description" class="desc-text"></h2>
+    </div>
+  </section>
+
+
+  <!-- Main Content -->
+  <main class="gallery">
+    <!-- <div class="gallery-header"> -->
+    <!--   <huge-header>GALLERY</huge-header> -->
+    <!-- </div> -->
+    <div id="gallery-container" class="masonry-grid gallery-container">
+      <div class="grid-sizer"></div>
+      <div class="gutter-sizer"></div>
+      <!-- <div class="masonry-grid-item"> -->
+      <!-- 	<div class="grid-text"> -->
+      <!-- 	  <p id="project-description"></p> -->
+      <!-- 	</div> -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Navigation Arrows -->
+  <nav class="project-navigation">
+    <a href="" id="nav-left" class="nav-arrow nav-left" aria-label="Previous Project">< <span class="nav-text">Previous</span></a>
+    <a href="" id="nav-right" class="nav-arrow nav-right" aria-label="Next Project"><span class="nav-text">Next</span> ></a>
+  </nav>
+  
+    <!-- masonry -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+  
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/js/navbars.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/portfolio-item-sections.js"></script>
+    <script src="assets/js/project-nav.js"></script>
+    
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- Typing Animation -->
+    <script src="assets/js/typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
+
+    <nav-footer></nav-footer>
+  
+  </body>
+</html>
