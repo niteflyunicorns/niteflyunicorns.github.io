@@ -14,7 +14,11 @@ projects.forEach(project => {
     img2.href = project.bkgd;
 
     const id = encodeURIComponent( project.id );
-    clone.querySelector('a.btn').href = `projectPage.html?id=${id}`;
+    if ( project.pagetype === 'sections' ) {
+	clone.querySelector('a.btn').href = project.fileName;
+    } else {
+	clone.querySelector('a.btn').href = `projectPage.html?id=${id}`;
+    }
 
     // Add tags as class names to the top-level article element
     const card = clone.querySelector('.project-card');

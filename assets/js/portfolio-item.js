@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const projectId = params.get('id');
+const projectId = document.body.dataset.projectId || params.get('id');
 
 projects = window.projects;
 const project = projects.find( p => p.id === projectId);
@@ -16,8 +16,8 @@ if (project) {
     // const img = document.getElementById('project-background');
     // img.src = project.bkgd;
     // img.alt = project.name;
-    if (galleryContainer) {
-	project.imgs.forEach( src => {
+    if (galleryContainer && project.pagetype === "standard") {
+	Object.values(project.imgs).flat().forEach( src => {
 	    const item = document.createElement("div");
 	    item.classList.add("masonry-grid-item");
 	    const img = document.createElement("img");
@@ -53,9 +53,9 @@ const grid = document.querySelector('.masonry-grid');
 imagesLoaded( grid, function() {
     new Masonry( grid, {
 	itemSelector: '.masonry-grid-item',
-	columnWidth: 18,
+	columnWidth: '.masonry-grid-item',
 	percentPosition: true,
-	gutter: '.gutter-sizer'
+	gutter: 20
     });
 });
 
