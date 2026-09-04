@@ -2,6 +2,7 @@
 currentlyUnused/*
 local-only/*
 archive/*
+assets/portfolio/.archives/*
 
 # ignore ~ files
 *~
