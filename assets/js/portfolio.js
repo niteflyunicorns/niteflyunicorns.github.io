@@ -15,7 +15,8 @@ projects.forEach(project => {
 
     const id = encodeURIComponent( project.id );
     if ( project.pagetype === 'sections' ) {
-	clone.querySelector('a.btn').href = project.fileName;
+	// clone.querySelector('a.btn').href = project.fileName;
+	clone.querySelector('a.btn').href = `projectPage-sections.html?id=${id}`;
     } else {
 	clone.querySelector('a.btn').href = `projectPage.html?id=${id}`;
     }

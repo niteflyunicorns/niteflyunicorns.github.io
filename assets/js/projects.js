@@ -218,7 +218,7 @@ window.projects = [
     {
         "id": "logos",
         "name": "Logos",
-        "bkgd": "assets/portfolio/Logos/TXGLogo2-rgb.webp",
+        "bkgd": "assets/portfolio/Logos/logos-cover-img.webp",
         "video": "",
         "tags": [
             "all",
@@ -228,31 +228,14 @@ window.projects = [
         "fileName": "portfolio-logos.html",
         "sections": [
             {
-                "id": "foodicons",
-                "name": "FoodIcons",
-                "type": "",
-                "role": "",
-                "soft": "",
-                "desc": "",
-                "images": [
-                    "assets/portfolio/Logos/FoodIcons/FoodIcons-02.webp",
-                    "assets/portfolio/Logos/FoodIcons/FoodIcons-03.webp",
-                    "assets/portfolio/Logos/FoodIcons/FoodIcons-05.webp",
-                    "assets/portfolio/Logos/FoodIcons/FoodIcons-07.webp",
-                    "assets/portfolio/Logos/FoodIcons/FoodIcons-10.webp"
-                ]
-            },
-            {
-                "id": "txg",
-                "name": "TXG",
-                "type": "",
-                "role": "",
-                "soft": "",
-                "desc": "",
-                "images": [
+                "id": "TXG",
+                "name": "Tribal Exchange Network Group (TXG) Logo",
+                "type": "Logo Design",
+                "role": "Refiner",
+                "soft": "Adobe Illustrator",
+                "desc": "The original TXG Logo was given to me with the request to revamp/redesign the logo to be more modern. The colors are from the original logo but I redesigned the structure and style of the logo. I incorporated additional emphasis of \"Tribal\" and \"Group\" by sizing them up slightly from the other text. The stylized windrose on the right represents the group's work in data management and analysis, while incorporating an environmental element to the logo.",
+                "imgs": [
                     "assets/portfolio/Logos/TXG/txg-sticker.webp",
-                    "assets/portfolio/Logos/TXG/txgLogo-grey.webp",
-                    "assets/portfolio/Logos/TXG/txgLogo1-p0421.webp",
                     "assets/portfolio/Logos/TXG/TXGLogo2-rgb.webp"
                 ]
             }
@@ -289,51 +272,30 @@ window.projects = [
             "animation",
             "ui-ux"
         ],
-        "type": "Brand Development, Logo Design, Package Design, UI/UX, 3D Modeling, 3D Animation, Rigging, Lighting, Environment Design",
-        "role": "All",
-        "soft": "Adobe Illustrator, Adobe InDesign, Photoshop, Adobe XD, Cinema 4D",
-        "desc": "Prickly Pete's was a brand development and marketing project that I developed from scratch. The idea behind Prickly Pete's was to be quirky and fun. Prickly Pete's is a food truck that serves classic diner food with a Southwestern twist. Pete, the prickly pear mascot loves everything about the Southwest, but especially the wonderful food. The project was divided into four phases: food truck design, packaging, app, and video promo.",
         "pagetype": "sections",
         "fileName": "portfolio-pricklyPetes.html",
         "sections": [
             {
-                "id": "app",
-                "name": "App",
-                "type": "",
-                "role": "",
-                "soft": "",
-                "desc": "",
-                "images": [
-                    "assets/portfolio/PricklyPetes/App/Chappus_VC261_Proj3_case_study.webp",
-                    "assets/portfolio/PricklyPetes/App/Icon App Mock-Up 1.webp",
-                    "assets/portfolio/PricklyPetes/App/splash.webp"
-                ]
-            },
-            {
-                "id": "foodtruck",
-                "name": "FoodTruck",
-                "type": "",
-                "role": "",
-                "soft": "",
-                "desc": "",
-                "images": [
-                    "assets/portfolio/PricklyPetes/FoodTruck/Body Type Design v2_Banner copy 2.webp",
-                    "assets/portfolio/PricklyPetes/FoodTruck/BW Final Logo-04.webp",
-                    "assets/portfolio/PricklyPetes/FoodTruck/Final Logo-04.webp",
-                    "assets/portfolio/PricklyPetes/FoodTruck/Food Truck Final.webp",
+                "id": "FoodTruck",
+                "name": "Prickly Pete's Food Truck Concept",
+                "type": "Brand Development, Logo Design",
+                "role": "All",
+                "soft": "Adobe Illustrator, Photoshop, Adobe Indesign",
+                "desc": "Prickly Pete's was a brand development and marketing project that I developed from scratch. The idea behind Prickly Pete's was to be quirky and fun. Prickly Pete's is a food truck that serves classic diner food with a Southwestern twist. Pete, the prickly pear mascot loves everything about the Southwest, but especially the wonderful food.",
+                "imgs": [
                     "assets/portfolio/PricklyPetes/FoodTruck/Food Truck Mock-Up Final.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/foodTruckBranding-s21_Page_8.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/mood-board-new.webp"
                 ]
             },
             {
-                "id": "packaging",
-                "name": "Packaging",
-                "type": "",
-                "role": "",
-                "soft": "",
-                "desc": "",
-                "images": [
+                "id": "Packaging",
+                "name": "Prickly Pete's Packaging",
+                "type": "Brand Development, Package Design",
+                "role": "All",
+                "soft": "Adobe Illustrator, Photoshop, Adobe Indesign",
+                "desc": "Once the food truck and brand identity had been developed, the next stem was packaging for the food and goods that Prickly Pete's would be offering. As with most food trucks, Prickly Pete's features a consise menu, with a simple, organized design. The to-go box carries the word cloud design from the food truck and highlights words that indicate what the box might be used for. The to-go cup's design is simple and fun, and features the cactus fruit stylized as a heart in the center of the label. Finally, Prickly Pete's customers lust over the unique sauces, including a jalapeno cactus salsa, a prickly pear jam, and a chipotle garlic aioli. As such, Prickly Pete's is obligated to package and sell them in these adorable rustic jam jars.",
+                "imgs": [
                     "assets/portfolio/PricklyPetes/Packaging/Proj2_Boxes.webp",
                     "assets/portfolio/PricklyPetes/Packaging/Proj2_Cup.webp",
                     "assets/portfolio/PricklyPetes/Packaging/Proj2_Jars_2.webp",
@@ -341,24 +303,13 @@ window.projects = [
                 ]
             },
             {
-                "id": "all",
-                "name": "all",
-                "type": "",
-                "role": "",
-                "soft": "",
-                "desc": "",
-                "images": [
-                    "assets/portfolio/PricklyPetes/prickly-banner.webp"
-                ]
-            },
-            {
-                "id": "promo",
-                "name": "Promo",
-                "type": "",
-                "role": "",
-                "soft": "",
-                "desc": "",
-                "images": [
+                "id": "Promo",
+                "name": "Prickly Pete's Video Promo",
+                "type": "3D Modeling, 3D Animation, Rigging, Lighting, Environment Design",
+                "role": "All",
+                "soft": "Cinema 4D",
+                "desc": "Finally, for a completely different project, I modeled, rigged, and animated the Prickly Pete's mascot. This animation, while intended to practice modeling and character walk cycles, became a good way to showcase the Prickly Pete's mascot, and was then incorporated into the Prickly Pete's brand package as an animated promo. While it is an incomplete promo, it is a good building block to use in any sort of promo video for the food truck.",
+                "imgs": [
                     "assets/portfolio/PricklyPetes/Promo/fruitsAndVeggies_animatic (1).webp",
                     "assets/portfolio/PricklyPetes/Promo/lightingStudio_Camera_a_i3.webp",
                     "assets/portfolio/PricklyPetes/Promo/profile_front.webp",

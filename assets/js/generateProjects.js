@@ -133,7 +133,7 @@ const projects = [
     {
 	id: 'logos',
 	name: 'Logos',
-	bkgd: 'assets/portfolio/Logos/TXGLogo2-rgb.webp',
+	bkgd: 'assets/portfolio/Logos/logos-cover-img.webp',
 	video: '',
 	tags: ['all', 'graphic-design'],
 	dir: 'Logos',
@@ -141,13 +141,15 @@ const projects = [
 	fileName: 'portfolio-logos.html',
 	sections: [
 	    {
+		id: "FoodIcons",
 		name: "FoodIcons",
 		type: "Icon Design",
 		role: "Designer",
 		soft: "Adobe Illustrator",
-		desc: "",
+		desc: 'I designed several food and agriculture-based icons, which were selected as part of a crowd sourced icon design project organized by The Noun Library and The Lexicon. The project had guidelines on things like shape and line weights in an effort to create an icon set that is recognizable and standardized, but there was flexibility in interpretation of the word or topic for the icon. The icons I designed are for: Terroir, Fallowing, Mountain Microorganisms, Land Use Planning, and Mycelum. The project can be viewed <a href="https://thenounproject.com/creator/foodiconscollection/" class="p-link">here</a>.',
 	    },
 	    {
+		id: "TXG",
 		name: "Tribal Exchange Network Group (TXG) Logo",
 		type: "Logo Design",
 		role: "Refiner",
@@ -155,11 +157,12 @@ const projects = [
 		desc: 'The original TXG Logo was given to me with the request to revamp/redesign the logo to be more modern. The colors are from the original logo but I redesigned the structure and style of the logo. I incorporated additional emphasis of "Tribal" and "Group" by sizing them up slightly from the other text. The stylized windrose on the right represents the group\'s work in data management and analysis, while incorporating an environmental element to the logo.',
 	    },
 	    {
+		id: "TW7G",
 		name: "Tribal Wellbeing for Seven Generations (TW7G) Logo",
 		type: "Logo Design & Brand Identity",
 		role: "Designer",
 		soft: "Adobe Illustrator",
-		desc: "",
+		desc: "As part of my work with the Institute for Tribal Environmental Professionals, I designed and developed a new logo for the Tribal Wellbeing for Seven Generations. The logo originally went in a completely different direction, focusing more on the environment-human connection of the program. Ultimately, the client wanted to go with something simpler, focusing primarily on the human-side of the program's work. The logo package features three layout versions in three different color schemes, offering the client flexibility in all of their future designs.",
 	    }
 	]
     },
@@ -182,13 +185,43 @@ const projects = [
 	bkgd: 'assets/portfolio/PricklyPetes/prickly-banner.webp',
 	video: 'WJD1SAXW7lU',
 	tags: ['all', 'graphic-design', 'animation', 'ui-ux'],
-	type: "Brand Development, Logo Design, Package Design, UI/UX, 3D Modeling, 3D Animation, Rigging, Lighting, Environment Design",
-	role: "All",
-	soft: "Adobe Illustrator, Adobe InDesign, Photoshop, Adobe XD, Cinema 4D",
-	desc: "Prickly Pete's was a brand development and marketing project that I developed from scratch. The idea behind Prickly Pete's was to be quirky and fun. Prickly Pete's is a food truck that serves classic diner food with a Southwestern twist. Pete, the prickly pear mascot loves everything about the Southwest, but especially the wonderful food. The project was divided into four phases: food truck design, packaging, app, and video promo.",
 	dir: 'PricklyPetes',
 	pagetype: 'sections',
-	fileName: 'portfolio-pricklyPetes.html'
+	fileName: 'portfolio-pricklyPetes.html',
+	sections: [
+	    {
+		id: "FoodTruck",
+		name: "Prickly Pete's Food Truck Concept",
+		type: "Brand Development, Logo Design",
+		role: "All",
+		soft: "Adobe Illustrator, Photoshop, Adobe Indesign",
+		desc: "Prickly Pete's was a brand development and marketing project that I developed from scratch. The idea behind Prickly Pete's was to be quirky and fun. Prickly Pete's is a food truck that serves classic diner food with a Southwestern twist. Pete, the prickly pear mascot loves everything about the Southwest, but especially the wonderful food.",
+	    },
+	    {
+		id: "Packaging",
+		name: "Prickly Pete's Packaging",
+		type: "Brand Development, Package Design",
+		role: "All",
+		soft: "Adobe Illustrator, Photoshop, Adobe Indesign",
+		desc: "Once the food truck and brand identity had been developed, the next stem was packaging for the food and goods that Prickly Pete's would be offering. As with most food trucks, Prickly Pete's features a consise menu, with a simple, organized design. The to-go box carries the word cloud design from the food truck and highlights words that indicate what the box might be used for. The to-go cup's design is simple and fun, and features the cactus fruit stylized as a heart in the center of the label. Finally, Prickly Pete's customers lust over the unique sauces, including a jalapeno cactus salsa, a prickly pear jam, and a chipotle garlic aioli. As such, Prickly Pete's is obligated to package and sell them in these adorable rustic jam jars.",
+	    },
+	    {
+		id: "App",
+		name: "Prickly Pete's Food Truck App",
+		type: "Brand Development, UI/UX",
+		role: "All",
+		soft: "Adobe Illustrator, Adobe XD",
+		desc: "Next, Prickly Pete's needed an app so that their customers can save time by ordering ahead, tracking the location of the food truck, and to earn rewards! This included an extensive case study to understand the potential users, the design, and the goals and necessary functionality of the app.",
+	    },
+	    {
+		id: "Promo",
+		name: "Prickly Pete's Video Promo",
+		type: "3D Modeling, 3D Animation, Rigging, Lighting, Environment Design",
+		role: "All",
+		soft: "Cinema 4D",
+		desc: "Finally, for a completely different project, I modeled, rigged, and animated the Prickly Pete's mascot. This animation, while intended to practice modeling and character walk cycles, became a good way to showcase the Prickly Pete's mascot, and was then incorporated into the Prickly Pete's brand package as an animated promo. While it is an incomplete promo, it is a good building block to use in any sort of promo video for the food truck.",
+	    },
+	]
     },
     {
 	id: 'flag-tag',
@@ -284,25 +317,30 @@ projects.forEach(p => {
 
     if (p.pagetype === "sections") {
 	const imageGroups = readAllFiles(fullPath);
+	const rootImages = imageGroups.all || [];
+	delete imageGroups.all;
 
 	p.sections = Object.entries(imageGroups).map(
-            ([sectionName, images]) => {
+            ([sectionName, imgs]) => {
 
-		const existing = p.sections?.[sectionName] || {};
+		const existing = p.sections?.find(
+		    section => section.id === sectionName ) || {};
 
 		return {
-                    id: sectionName
-			.toLowerCase()
-			.replace(/\s+/g, '-'),
+                    // id: sectionName
+		    // 	.toLowerCase()
+		    // 	.replace(/\s+/g, '-'),
 
-                    name: existing.name || sectionName,
+		    id: existing.id,
 
-                    type: existing.type || "",
-                    role: existing.role || "",
-                    soft: existing.soft || "",
-                    desc: existing.desc || "",
+                    name: existing.name,
 
-                    images
+                    type: existing.type,
+                    role: existing.role,
+                    soft: existing.soft,
+                    desc: existing.desc,
+
+                    imgs
 		};
             }
 	);
@@ -313,6 +351,48 @@ projects.forEach(p => {
     
     delete p.dir; // clean up
 });
+
+// projects.forEach(p => {
+//     const fullPath = path.join('assets/portfolio/', p.dir);
+
+//     if (p.pagetype === "sections") {
+//         const imageGroups = readAllFiles(fullPath);
+//         const existingSections = p.sections || [];
+
+//         console.log("\nPROJECT:", p.name);
+//         console.log("IMAGE GROUP KEYS:", Object.keys(imageGroups));
+//         console.log("EXISTING IDS:", existingSections.map(s => s.id));
+
+//         p.sections = Object.entries(imageGroups).map(
+//             ([sectionId, imgs]) => {
+
+//                 console.log("PROCESSING:", sectionId);
+
+//                 const existing = existingSections.find(
+//                     section => section.id === sectionId
+//                 );
+
+//                 console.log("MATCH:", existing);
+
+//                 return {
+//                     id: sectionId.toLowerCase(),
+//                     name: existing?.name || sectionId,
+//                     type: existing?.type || "",
+//                     role: existing?.role || "",
+//                     soft: existing?.soft || "",
+//                     desc: existing?.desc || "",
+//                     imgs
+//                 };
+//             }
+//         );
+//     }
+//     else {
+//         p.imgs = readAllFiles(fullPath);
+//     }
+
+//     delete p.dir;
+// });
+
 
 fs.writeFileSync(
   path.join(__dirname, 'projects.js'),

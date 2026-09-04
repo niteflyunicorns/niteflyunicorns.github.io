@@ -12117,7 +12117,8 @@ pre .code {
 /* } */
 
 .masonry-grid-item {
-    width: 22%;
+    width: 30%;
+    break-inside: avoid;
     margin-bottom: 2%;
     box-sizing: border-box;
     /* background: var(--black); */
@@ -12125,6 +12126,7 @@ pre .code {
 }
 
 .masonry-text-item {
+    width: 30%;
     background: var(--maroon);
     padding: 15px;
 }
