@@ -38,17 +38,17 @@ window.projects = [
         "pagetype": "standard",
         "imgs": {
             "all": [
+                "assets/portfolio/DraugrSystem/PhobarStill.webp",
+                "assets/portfolio/DraugrSystem/RhyelStill.webp",
+                "assets/portfolio/DraugrSystem/RonosStill.webp",
                 "assets/portfolio/DraugrSystem/draugrInterface-eeyo.webp",
                 "assets/portfolio/DraugrSystem/draugrInterface-rhyel.webp",
                 "assets/portfolio/DraugrSystem/eeyo1.webp",
-                "assets/portfolio/DraugrSystem/PhobarStill.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-01.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-02.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-04.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-05.webp",
-                "assets/portfolio/DraugrSystem/radarGraphs1-05.webp",
-                "assets/portfolio/DraugrSystem/RhyelStill.webp",
-                "assets/portfolio/DraugrSystem/RonosStill.webp"
+                "assets/portfolio/DraugrSystem/radarGraphs1-05.webp"
             ]
         }
     },
@@ -107,7 +107,24 @@ window.projects = [
         "soft": "Figma",
         "desc": "I undertook this project as part of my participation in the SNAPS research team. I took the original website, and revamped it for the new era in the SNAPS project. This effort was influenced by the use cases and needs of not only the SNAPS team, but also of the greater user base. The design went through several iterations before landing on the final design, which was then developed by another member of the SNAPS team. In Figma, not only did I layout the design, but I also prototyped the design, which could then be exported and serve as a starting point for the developer. In addition to the design, I used Inkscape to design icons and supporting graphics where needed. This website focuses on easy data access, customization of queries, and usability, all wrapped up in a soft, modern, dark-theme-forward interface. The current operational website can be accessed <a href=\"https://rc.nau.edu/snaps/\">here<a>.",
         "pagetype": "standard",
-        "imgs": {}
+        "imgs": {
+            "all": [
+                "assets/portfolio/SNAPSWebsite/0-figma-layout.webp",
+                "assets/portfolio/SNAPSWebsite/0-snaps-landing.webp",
+                "assets/portfolio/SNAPSWebsite/1-about.webp",
+                "assets/portfolio/SNAPSWebsite/1-faves.webp",
+                "assets/portfolio/SNAPSWebsite/1-help.webp",
+                "assets/portfolio/SNAPSWebsite/1-home.webp",
+                "assets/portfolio/SNAPSWebsite/1-plots.webp",
+                "assets/portfolio/SNAPSWebsite/1-system.webp",
+                "assets/portfolio/SNAPSWebsite/2-about.webp",
+                "assets/portfolio/SNAPSWebsite/2-faves.webp",
+                "assets/portfolio/SNAPSWebsite/2-help.webp",
+                "assets/portfolio/SNAPSWebsite/2-home.webp",
+                "assets/portfolio/SNAPSWebsite/2-plots.webp",
+                "assets/portfolio/SNAPSWebsite/2-system.webp"
+            ]
+        }
     },
     {
         "id": "portfolio-site",
@@ -228,6 +245,40 @@ window.projects = [
         "fileName": "portfolio-logos.html",
         "sections": [
             {
+                "id": "FoodIcons",
+                "name": "FoodIcons",
+                "type": "Icon Design",
+                "role": "Designer",
+                "soft": "Adobe Illustrator",
+                "desc": "I designed several food and agriculture-based icons, which were selected as part of a crowd sourced icon design project organized by The Noun Library and The Lexicon. The project had guidelines on things like shape and line weights in an effort to create an icon set that is recognizable and standardized, but there was flexibility in interpretation of the word or topic for the icon. The icons I designed are for: Terroir, Fallowing, Mountain Microorganisms, Land Use Planning, and Mycelum. The project can be viewed <a href=\"https://thenounproject.com/creator/foodiconscollection/\" class=\"p-link\">here</a>.",
+                "imgs": [
+                    "assets/portfolio/Logos/FoodIcons/fallowing.webp",
+                    "assets/portfolio/Logos/FoodIcons/land-use-planning.webp",
+                    "assets/portfolio/Logos/FoodIcons/mountain-microorganisms.webp",
+                    "assets/portfolio/Logos/FoodIcons/mycelum.webp",
+                    "assets/portfolio/Logos/FoodIcons/terroir.webp"
+                ]
+            },
+            {
+                "id": "TW7G",
+                "name": "Tribal Wellbeing for Seven Generations (TW7G) Logo",
+                "type": "Logo Design & Brand Identity",
+                "role": "Designer",
+                "soft": "Adobe Illustrator",
+                "desc": "As part of my work with the Institute for Tribal Environmental Professionals, I designed and developed a new logo for the Tribal Wellbeing for Seven Generations. The logo originally went in a completely different direction, focusing more on the environment-human connection of the program. Ultimately, the client wanted to go with something simpler, focusing primarily on the human-side of the program's work. The logo package features three layout versions in three different color schemes, offering the client flexibility in all of their future designs.",
+                "imgs": [
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Favicon-Black.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Favicon-Color.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Favicon-White.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Primary-Black.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Primary-Color.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Primary-White.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Secondary-Black.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Secondary-Color.webp",
+                    "assets/portfolio/Logos/TW7G/tw7g-logo-final_Seconday-White.webp"
+                ]
+            },
+            {
                 "id": "TXG",
                 "name": "Tribal Exchange Network Group (TXG) Logo",
                 "type": "Logo Design",
@@ -235,8 +286,9 @@ window.projects = [
                 "soft": "Adobe Illustrator",
                 "desc": "The original TXG Logo was given to me with the request to revamp/redesign the logo to be more modern. The colors are from the original logo but I redesigned the structure and style of the logo. I incorporated additional emphasis of \"Tribal\" and \"Group\" by sizing them up slightly from the other text. The stylized windrose on the right represents the group's work in data management and analysis, while incorporating an environmental element to the logo.",
                 "imgs": [
+                    "assets/portfolio/Logos/TXG/TXGLogo2-rgb.webp",
                     "assets/portfolio/Logos/TXG/txg-sticker.webp",
-                    "assets/portfolio/Logos/TXG/TXGLogo2-rgb.webp"
+                    "assets/portfolio/Logos/TXG/txgLogo-grey.webp"
                 ]
             }
         ]
@@ -276,6 +328,31 @@ window.projects = [
         "fileName": "portfolio-pricklyPetes.html",
         "sections": [
             {
+                "id": "App",
+                "name": "Prickly Pete's Food Truck App",
+                "type": "Brand Development, UI/UX",
+                "role": "All",
+                "soft": "Adobe Illustrator, Adobe XD",
+                "desc": "Next, Prickly Pete's needed an app so that their customers can save time by ordering ahead, tracking the location of the food truck, and to earn rewards! This included an extensive case study to understand the potential users, the design, and the goals and necessary functionality of the app.",
+                "imgs": [
+                    "assets/portfolio/PricklyPetes/App/Icon App Mock-Up 1.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_01.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_02.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_03.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_04.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_05.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_06.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_07.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_08.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_09.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_10.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_11.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_12.webp",
+                    "assets/portfolio/PricklyPetes/App/pp_case_study_13.webp",
+                    "assets/portfolio/PricklyPetes/App/splash.webp"
+                ]
+            },
+            {
                 "id": "FoodTruck",
                 "name": "Prickly Pete's Food Truck Concept",
                 "type": "Brand Development, Logo Design",
@@ -283,6 +360,9 @@ window.projects = [
                 "soft": "Adobe Illustrator, Photoshop, Adobe Indesign",
                 "desc": "Prickly Pete's was a brand development and marketing project that I developed from scratch. The idea behind Prickly Pete's was to be quirky and fun. Prickly Pete's is a food truck that serves classic diner food with a Southwestern twist. Pete, the prickly pear mascot loves everything about the Southwest, but especially the wonderful food.",
                 "imgs": [
+                    "assets/portfolio/PricklyPetes/FoodTruck/BW Final Logo-04.webp",
+                    "assets/portfolio/PricklyPetes/FoodTruck/Body Type Design v2_Banner copy 2.webp",
+                    "assets/portfolio/PricklyPetes/FoodTruck/Final Logo-04.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/Food Truck Mock-Up Final.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/foodTruckBranding-s21_Page_8.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/mood-board-new.webp"
