@@ -194,7 +194,7 @@ $(document).ready(function() {
 $(window).on("load", function () {
   if (document.querySelector(".typed")) {
     new Typed(".typed", {
-      strings: ["Animator.", "Mathematician.", "Developer.", "Savannah,"],
+      strings: ["Animator.", "Mathematician.", "Developer.", "Savannah."],
       typeSpeed: 30,
       loop: false,
       showCursor: false
