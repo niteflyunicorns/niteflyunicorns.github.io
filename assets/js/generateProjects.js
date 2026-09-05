@@ -68,7 +68,7 @@ const projects = [
     {
 	id: 'snaps',
 	name: 'SNAPS Website Revamp',
-	bkgd: 'assets/portfolio/SNAPSWebsite/snaps-landing.webp',
+	bkgd: 'assets/portfolio/SNAPSWebsite/0-snaps-landing.webp',
 	video: '',
 	tags: ['all', 'new', 'ui-ux'],
 	type: "UI/UX Design",
