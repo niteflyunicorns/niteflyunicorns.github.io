@@ -38,17 +38,17 @@ window.projects = [
         "pagetype": "standard",
         "imgs": {
             "all": [
-                "assets/portfolio/DraugrSystem/PhobarStill.webp",
-                "assets/portfolio/DraugrSystem/RhyelStill.webp",
-                "assets/portfolio/DraugrSystem/RonosStill.webp",
                 "assets/portfolio/DraugrSystem/draugrInterface-eeyo.webp",
                 "assets/portfolio/DraugrSystem/draugrInterface-rhyel.webp",
                 "assets/portfolio/DraugrSystem/eeyo1.webp",
+                "assets/portfolio/DraugrSystem/PhobarStill.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-01.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-02.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-04.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-05.webp",
-                "assets/portfolio/DraugrSystem/radarGraphs1-05.webp"
+                "assets/portfolio/DraugrSystem/radarGraphs1-05.webp",
+                "assets/portfolio/DraugrSystem/RhyelStill.webp",
+                "assets/portfolio/DraugrSystem/RonosStill.webp"
             ]
         }
     },
@@ -95,7 +95,7 @@ window.projects = [
     {
         "id": "snaps",
         "name": "SNAPS Website Revamp",
-        "bkgd": "assets/portfolio/SNAPSWebsite/snaps-landing.webp",
+        "bkgd": "assets/portfolio/SNAPSWebsite/0-snaps-landing.webp",
         "video": "",
         "tags": [
             "all",
@@ -286,9 +286,9 @@ window.projects = [
                 "soft": "Adobe Illustrator",
                 "desc": "The original TXG Logo was given to me with the request to revamp/redesign the logo to be more modern. The colors are from the original logo but I redesigned the structure and style of the logo. I incorporated additional emphasis of \"Tribal\" and \"Group\" by sizing them up slightly from the other text. The stylized windrose on the right represents the group's work in data management and analysis, while incorporating an environmental element to the logo.",
                 "imgs": [
-                    "assets/portfolio/Logos/TXG/TXGLogo2-rgb.webp",
                     "assets/portfolio/Logos/TXG/txg-sticker.webp",
-                    "assets/portfolio/Logos/TXG/txgLogo-grey.webp"
+                    "assets/portfolio/Logos/TXG/txgLogo-grey.webp",
+                    "assets/portfolio/Logos/TXG/TXGLogo2-rgb.webp"
                 ]
             }
         ]
@@ -360,8 +360,8 @@ window.projects = [
                 "soft": "Adobe Illustrator, Photoshop, Adobe Indesign",
                 "desc": "Prickly Pete's was a brand development and marketing project that I developed from scratch. The idea behind Prickly Pete's was to be quirky and fun. Prickly Pete's is a food truck that serves classic diner food with a Southwestern twist. Pete, the prickly pear mascot loves everything about the Southwest, but especially the wonderful food.",
                 "imgs": [
-                    "assets/portfolio/PricklyPetes/FoodTruck/BW Final Logo-04.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/Body Type Design v2_Banner copy 2.webp",
+                    "assets/portfolio/PricklyPetes/FoodTruck/BW Final Logo-04.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/Final Logo-04.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/Food Truck Mock-Up Final.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/foodTruckBranding-s21_Page_8.webp",
